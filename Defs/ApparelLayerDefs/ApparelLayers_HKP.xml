@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+  <ApparelLayerDef>
+    <defName>HKP_Uniform</defName>
+    <label>HKP制服层</label>
+    <drawOrder>300</drawOrder>
+  </ApparelLayerDef>
+  <ApparelLayerDef>
+    <defName>HKP_Cord</defName>
+    <label>HKP鸡绳层</label>
+    <drawOrder>325</drawOrder>
+  </ApparelLayerDef>
+  <ApparelLayerDef>
+    <defName>HKP_Vest</defName>
+    <label>HKP背心层</label>
+    <drawOrder>350</drawOrder>
+  </ApparelLayerDef>
+  <ApparelLayerDef>
+    <defName>HKP_Outer</defName>
+    <label>HKP外套层</label>
+    <drawOrder>310</drawOrder>
+  </ApparelLayerDef>
+  <ApparelLayerDef>
+    <defName>HKP_Belt</defName>
+    <label>HKP腰带层</label>
+    <drawOrder>360</drawOrder>
+  </ApparelLayerDef>
+  <ApparelLayerDef>
+    <defName>HKP_Shield</defName>
+    <label>HKP盾牌层</label>
+    <drawOrder>9999</drawOrder>
+  </ApparelLayerDef>
+  <ApparelLayerDef>
+    <defName>HKP_Bodycam</defName>
+    <label>HKP执法记录仪层</label>
+    <drawOrder>360</drawOrder>
+  </ApparelLayerDef>
+  <ApparelLayerDef>
+    <defName>HKP_ReflectiveSleeve</defName>
+    <label>HKP反光袖套层</label>
+    <drawOrder>355</drawOrder>
+  </ApparelLayerDef>
+</Defs>

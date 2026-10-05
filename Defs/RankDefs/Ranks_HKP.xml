@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <RocketsRanks.RankDef>
+    <defName>HKP_Rank_HK1</defName><label>警员</label>
+    <description>警员（Police Constable）。</description><rankLevel>1</rankLevel>
+    <iconPath>UI/HKP/HK1</iconPath><pack>HKP_Ranks</pack>
+  </RocketsRanks.RankDef>
+
+  <RocketsRanks.RankDef>
+    <defName>HKP_Rank_HK2</defName><label>高级警员</label>
+    <description>高级警员（Senior Police Constable）。</description><rankLevel>2</rankLevel>
+    <iconPath>UI/HKP/HK2</iconPath><pack>HKP_Ranks</pack>
+  </RocketsRanks.RankDef>
+
+  <RocketsRanks.RankDef>
+    <defName>HKP_Rank_HK3</defName><label>警长</label>
+    <description>警长（Sergeant）。</description><rankLevel>3</rankLevel>
+    <iconPath>UI/HKP/HK3</iconPath><pack>HKP_Ranks</pack>
+  </RocketsRanks.RankDef>
+
+  <RocketsRanks.RankDef>
+    <defName>HKP_Rank_HK4</defName><label>警署警长</label>
+    <description>警署警长（Station Sergeant）。</description><rankLevel>4</rankLevel>
+    <iconPath>UI/HKP/HK4</iconPath><pack>HKP_Ranks</pack>
+  </RocketsRanks.RankDef>
+
+  <RocketsRanks.RankDef>
+    <defName>HKP_Rank_HK5</defName><label>见习督察</label>
+    <description>见习督察（Probationary Inspector）。</description><rankLevel>5</rankLevel>
+    <iconPath>UI/HKP/HK5</iconPath><pack>HKP_Officers</pack>
+  </RocketsRanks.RankDef>
+
+  <RocketsRanks.RankDef>
+    <defName>HKP_Rank_HK6</defName><label>督察</label>
+    <description>督察（Inspector）。</description><rankLevel>6</rankLevel>
+    <iconPath>UI/HKP/HK6</iconPath><pack>HKP_Officers</pack>
+  </RocketsRanks.RankDef>
+
+  <RocketsRanks.RankDef>
+    <defName>HKP_Rank_HK7</defName><label>高级督察</label>
+    <description>高级督察（Senior Inspector）。</description><rankLevel>7</rankLevel>
+    <iconPath>UI/HKP/HK7</iconPath><pack>HKP_Officers</pack>
+  </RocketsRanks.RankDef>
+
+  <RocketsRanks.RankDef>
+    <defName>HKP_Rank_HK8</defName><label>总督察</label>
+    <description>总督察（Chief Inspector）。</description><rankLevel>8</rankLevel>
+    <iconPath>UI/HKP/HK8</iconPath><pack>HKP_Officers</pack>
+  </RocketsRanks.RankDef>
+
+  <RocketsRanks.RankDef>
+    <defName>HKP_Rank_HK9</defName><label>警司</label>
+    <description>警司（Superintendent）。</description><rankLevel>9</rankLevel>
+    <iconPath>UI/HKP/HK9</iconPath><pack>HKP_Officers</pack>
+  </RocketsRanks.RankDef>
+
+  <RocketsRanks.RankDef>
+    <defName>HKP_Rank_HK10</defName><label>高级警司</label>
+    <description>高级警司（Senior Superintendent）。</description><rankLevel>10</rankLevel>
+    <iconPath>UI/HKP/HK10</iconPath><pack>HKP_Officers</pack>
+  </RocketsRanks.RankDef>
+
+  <RocketsRanks.RankDef>
+    <defName>HKP_Rank_HK11</defName><label>总警司</label>
+    <description>总警司（Chief Superintendent）。</description><rankLevel>11</rankLevel>
+    <iconPath>UI/HKP/HK11</iconPath><pack>HKP_Officers</pack>
+  </RocketsRanks.RankDef>
+
+  <RocketsRanks.RankDef>
+    <defName>HKP_Rank_HK12</defName><label>警务处助理处长</label>
+    <description>警务处助理处长（Assistant Commissioner）。</description><rankLevel>12</rankLevel>
+    <iconPath>UI/HKP/HK12</iconPath><pack>HKP_Officers</pack>
+  </RocketsRanks.RankDef>
+
+  <RocketsRanks.RankDef>
+    <defName>HKP_Rank_HK13</defName><label>警务处高级助理处长</label>
+    <description>警务处高级助理处长（Senior Assistant Commissioner）。</description><rankLevel>13</rankLevel>
+    <iconPath>UI/HKP/HK13</iconPath><pack>HKP_Officers</pack>
+  </RocketsRanks.RankDef>
+
+  <RocketsRanks.RankDef>
+    <defName>HKP_Rank_HK14</defName><label>警务处副处长</label>
+    <description>警务处副处长（Deputy Commissioner）。</description><rankLevel>14</rankLevel>
+    <iconPath>UI/HKP/HK14</iconPath><pack>HKP_Officers</pack>
+  </RocketsRanks.RankDef>
+
+  <RocketsRanks.RankDef>
+    <defName>HKP_Rank_HK15</defName><label>警务处处长</label>
+    <description>警务处处长（Commissioner of Police）。</description><rankLevel>15</rankLevel>
+    <iconPath>UI/HKP/HK15</iconPath><pack>HKP_Officers</pack>
+  </RocketsRanks.RankDef>
+</Defs>

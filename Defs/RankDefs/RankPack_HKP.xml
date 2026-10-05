@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <RocketsRanks.RankPackDef>
+    <defName>HKP_Ranks</defName><label>HKP 员佐级</label>
+    <description>香港警察员佐级警衔。</description><previewRank>HKP_Rank_HK4</previewRank>
+  </RocketsRanks.RankPackDef>
+  <RocketsRanks.RankPackDef>
+    <defName>HKP_Officers</defName><label>HKP 督察及以上</label>
+    <description>香港警察督察级及以上警衔。</description><previewRank>HKP_Rank_HK15</previewRank><isOfficerPack>true</isOfficerPack>
+  </RocketsRanks.RankPackDef>
+</Defs>

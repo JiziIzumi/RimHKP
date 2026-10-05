@@ -1,0 +1,408 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+  <ThingDef ParentName="ROCKET_Ranks_Enlisted">
+    <defName>HKP_Apparel_Rank_HK1</defName>
+    <label>警员肩章</label>
+    <description>香港警察警员警衔肩章。</description>
+    <graphicData>
+      <texPath>Things/Apparel/HKP_Ranks/HK1/Rank</texPath>
+      <color>(255,255,255)</color>
+    </graphicData>
+    <thingCategories>
+      <li>HKP_RanksCategory</li>
+    </thingCategories>
+    <apparel>
+      <wornGraphicPath>Things/Apparel/HKP_Ranks/HK1/Rank</wornGraphicPath>
+    </apparel>
+    <modExtensions Inherit="True">
+      <li Class="RocketsRanks.RankExtension">
+        <requiredRank>HKP_Rank_HK1</requiredRank>
+      </li>
+    </modExtensions>
+    <uiOrder>101</uiOrder>
+    <madeFromStuff>false</madeFromStuff>
+    <generateCommonality>0</generateCommonality>
+    <tradeability>All</tradeability>
+    <statBases>
+      <MarketValue>100</MarketValue>
+    </statBases>
+  </ThingDef>
+  <ThingDef ParentName="ROCKET_Ranks_Enlisted">
+    <defName>HKP_Apparel_Rank_HK2</defName>
+    <label>高级警员肩章</label>
+    <description>香港警察高级警员警衔肩章。</description>
+    <graphicData>
+      <texPath>Things/Apparel/HKP_Ranks/HK2/Rank</texPath>
+      <color>(255,255,255)</color>
+    </graphicData>
+    <thingCategories>
+      <li>HKP_RanksCategory</li>
+    </thingCategories>
+    <apparel>
+      <wornGraphicPath>Things/Apparel/HKP_Ranks/HK2/Rank</wornGraphicPath>
+    </apparel>
+    <modExtensions Inherit="True">
+      <li Class="RocketsRanks.RankExtension">
+        <requiredRank>HKP_Rank_HK2</requiredRank>
+      </li>
+    </modExtensions>
+    <uiOrder>102</uiOrder>
+    <madeFromStuff>false</madeFromStuff>
+    <generateCommonality>0</generateCommonality>
+    <tradeability>All</tradeability>
+    <statBases>
+      <MarketValue>100</MarketValue>
+    </statBases>
+  </ThingDef>
+  <ThingDef ParentName="ROCKET_Ranks_Enlisted">
+    <defName>HKP_Apparel_Rank_HK3</defName>
+    <label>警长肩章</label>
+    <description>香港警察警长警衔肩章。</description>
+    <graphicData>
+      <texPath>Things/Apparel/HKP_Ranks/HK3/Rank</texPath>
+      <color>(255,255,255)</color>
+    </graphicData>
+    <thingCategories>
+      <li>HKP_RanksCategory</li>
+    </thingCategories>
+    <apparel>
+      <wornGraphicPath>Things/Apparel/HKP_Ranks/HK3/Rank</wornGraphicPath>
+    </apparel>
+    <modExtensions Inherit="True">
+      <li Class="RocketsRanks.RankExtension">
+        <requiredRank>HKP_Rank_HK3</requiredRank>
+      </li>
+    </modExtensions>
+    <uiOrder>103</uiOrder>
+    <madeFromStuff>false</madeFromStuff>
+    <generateCommonality>0</generateCommonality>
+    <tradeability>All</tradeability>
+    <statBases>
+      <MarketValue>100</MarketValue>
+    </statBases>
+  </ThingDef>
+  <ThingDef ParentName="ROCKET_Ranks_Enlisted">
+    <defName>HKP_Apparel_Rank_HK4</defName>
+    <label>警署警长肩章</label>
+    <description>香港警察警署警长警衔肩章。</description>
+    <graphicData>
+      <texPath>Things/Apparel/HKP_Ranks/HK4/Rank</texPath>
+      <color>(255,255,255)</color>
+    </graphicData>
+    <thingCategories>
+      <li>HKP_RanksCategory</li>
+    </thingCategories>
+    <apparel>
+      <wornGraphicPath>Things/Apparel/HKP_Ranks/HK4/Rank</wornGraphicPath>
+    </apparel>
+    <modExtensions Inherit="True">
+      <li Class="RocketsRanks.RankExtension">
+        <requiredRank>HKP_Rank_HK4</requiredRank>
+      </li>
+    </modExtensions>
+    <uiOrder>104</uiOrder>
+    <madeFromStuff>false</madeFromStuff>
+    <generateCommonality>0</generateCommonality>
+    <tradeability>All</tradeability>
+    <statBases>
+      <MarketValue>100</MarketValue>
+    </statBases>
+  </ThingDef>
+  <ThingDef ParentName="ROCKET_Ranks_Officer">
+    <defName>HKP_Apparel_Rank_HK5</defName>
+    <label>见习督察肩章</label>
+    <description>香港警察见习督察警衔肩章。</description>
+    <graphicData>
+      <texPath>Things/Apparel/HKP_Ranks/HK5/Rank</texPath>
+      <color>(255,255,255)</color>
+    </graphicData>
+    <thingCategories>
+      <li>HKP_RanksCategory</li>
+    </thingCategories>
+    <apparel>
+      <wornGraphicPath>Things/Apparel/HKP_Ranks/HK5/Rank</wornGraphicPath>
+    </apparel>
+    <modExtensions Inherit="True">
+      <li Class="RocketsRanks.RankExtension">
+        <requiredRank>HKP_Rank_HK5</requiredRank>
+      </li>
+    </modExtensions>
+    <uiOrder>105</uiOrder>
+    <madeFromStuff>false</madeFromStuff>
+    <generateCommonality>0</generateCommonality>
+    <tradeability>All</tradeability>
+    <statBases>
+      <MarketValue>100</MarketValue>
+    </statBases>
+  </ThingDef>
+  <ThingDef ParentName="ROCKET_Ranks_Officer">
+    <defName>HKP_Apparel_Rank_HK6</defName>
+    <label>督察肩章</label>
+    <description>香港警察督察警衔肩章。</description>
+    <graphicData>
+      <texPath>Things/Apparel/HKP_Ranks/HK6/Rank</texPath>
+      <color>(255,255,255)</color>
+    </graphicData>
+    <thingCategories>
+      <li>HKP_RanksCategory</li>
+    </thingCategories>
+    <apparel>
+      <wornGraphicPath>Things/Apparel/HKP_Ranks/HK6/Rank</wornGraphicPath>
+    </apparel>
+    <modExtensions Inherit="True">
+      <li Class="RocketsRanks.RankExtension">
+        <requiredRank>HKP_Rank_HK6</requiredRank>
+      </li>
+    </modExtensions>
+    <uiOrder>106</uiOrder>
+    <madeFromStuff>false</madeFromStuff>
+    <generateCommonality>0</generateCommonality>
+    <tradeability>All</tradeability>
+    <statBases>
+      <MarketValue>100</MarketValue>
+    </statBases>
+  </ThingDef>
+  <ThingDef ParentName="ROCKET_Ranks_Officer">
+    <defName>HKP_Apparel_Rank_HK7</defName>
+    <label>高级督察肩章</label>
+    <description>香港警察高级督察警衔肩章。</description>
+    <graphicData>
+      <texPath>Things/Apparel/HKP_Ranks/HK7/Rank</texPath>
+      <color>(255,255,255)</color>
+    </graphicData>
+    <thingCategories>
+      <li>HKP_RanksCategory</li>
+    </thingCategories>
+    <apparel>
+      <wornGraphicPath>Things/Apparel/HKP_Ranks/HK7/Rank</wornGraphicPath>
+    </apparel>
+    <modExtensions Inherit="True">
+      <li Class="RocketsRanks.RankExtension">
+        <requiredRank>HKP_Rank_HK7</requiredRank>
+      </li>
+    </modExtensions>
+    <uiOrder>107</uiOrder>
+    <madeFromStuff>false</madeFromStuff>
+    <generateCommonality>0</generateCommonality>
+    <tradeability>All</tradeability>
+    <statBases>
+      <MarketValue>100</MarketValue>
+    </statBases>
+  </ThingDef>
+  <ThingDef ParentName="ROCKET_Ranks_Officer">
+    <defName>HKP_Apparel_Rank_HK8</defName>
+    <label>总督察肩章</label>
+    <description>香港警察总督察警衔肩章。</description>
+    <graphicData>
+      <texPath>Things/Apparel/HKP_Ranks/HK8/Rank</texPath>
+      <color>(255,255,255)</color>
+    </graphicData>
+    <thingCategories>
+      <li>HKP_RanksCategory</li>
+    </thingCategories>
+    <apparel>
+      <wornGraphicPath>Things/Apparel/HKP_Ranks/HK8/Rank</wornGraphicPath>
+    </apparel>
+    <modExtensions Inherit="True">
+      <li Class="RocketsRanks.RankExtension">
+        <requiredRank>HKP_Rank_HK8</requiredRank>
+      </li>
+    </modExtensions>
+    <uiOrder>108</uiOrder>
+    <madeFromStuff>false</madeFromStuff>
+    <generateCommonality>0</generateCommonality>
+    <tradeability>All</tradeability>
+    <statBases>
+      <MarketValue>100</MarketValue>
+    </statBases>
+  </ThingDef>
+  <ThingDef ParentName="ROCKET_Ranks_Officer">
+    <defName>HKP_Apparel_Rank_HK9</defName>
+    <label>警司肩章</label>
+    <description>香港警察警司警衔肩章。</description>
+    <graphicData>
+      <texPath>Things/Apparel/HKP_Ranks/HK9/Rank</texPath>
+      <color>(255,255,255)</color>
+    </graphicData>
+    <thingCategories>
+      <li>HKP_RanksCategory</li>
+    </thingCategories>
+    <apparel>
+      <wornGraphicPath>Things/Apparel/HKP_Ranks/HK9/Rank</wornGraphicPath>
+    </apparel>
+    <modExtensions Inherit="True">
+      <li Class="RocketsRanks.RankExtension">
+        <requiredRank>HKP_Rank_HK9</requiredRank>
+      </li>
+    </modExtensions>
+    <uiOrder>109</uiOrder>
+    <madeFromStuff>false</madeFromStuff>
+    <generateCommonality>0</generateCommonality>
+    <tradeability>All</tradeability>
+    <statBases>
+      <MarketValue>100</MarketValue>
+    </statBases>
+  </ThingDef>
+  <ThingDef ParentName="ROCKET_Ranks_Officer">
+    <defName>HKP_Apparel_Rank_HK10</defName>
+    <label>高级警司肩章</label>
+    <description>香港警察高级警司警衔肩章。</description>
+    <graphicData>
+      <texPath>Things/Apparel/HKP_Ranks/HK10/Rank</texPath>
+      <color>(255,255,255)</color>
+    </graphicData>
+    <thingCategories>
+      <li>HKP_RanksCategory</li>
+    </thingCategories>
+    <apparel>
+      <wornGraphicPath>Things/Apparel/HKP_Ranks/HK10/Rank</wornGraphicPath>
+    </apparel>
+    <modExtensions Inherit="True">
+      <li Class="RocketsRanks.RankExtension">
+        <requiredRank>HKP_Rank_HK10</requiredRank>
+      </li>
+    </modExtensions>
+    <uiOrder>110</uiOrder>
+    <madeFromStuff>false</madeFromStuff>
+    <generateCommonality>0</generateCommonality>
+    <tradeability>All</tradeability>
+    <statBases>
+      <MarketValue>100</MarketValue>
+    </statBases>
+  </ThingDef>
+  <ThingDef ParentName="ROCKET_Ranks_Officer">
+    <defName>HKP_Apparel_Rank_HK11</defName>
+    <label>总警司肩章</label>
+    <description>香港警察总警司警衔肩章。</description>
+    <graphicData>
+      <texPath>Things/Apparel/HKP_Ranks/HK11/Rank</texPath>
+      <color>(255,255,255)</color>
+    </graphicData>
+    <thingCategories>
+      <li>HKP_RanksCategory</li>
+    </thingCategories>
+    <apparel>
+      <wornGraphicPath>Things/Apparel/HKP_Ranks/HK11/Rank</wornGraphicPath>
+    </apparel>
+    <modExtensions Inherit="True">
+      <li Class="RocketsRanks.RankExtension">
+        <requiredRank>HKP_Rank_HK11</requiredRank>
+      </li>
+    </modExtensions>
+    <uiOrder>111</uiOrder>
+    <madeFromStuff>false</madeFromStuff>
+    <generateCommonality>0</generateCommonality>
+    <tradeability>All</tradeability>
+    <statBases>
+      <MarketValue>100</MarketValue>
+    </statBases>
+  </ThingDef>
+  <ThingDef ParentName="ROCKET_Ranks_Officer">
+    <defName>HKP_Apparel_Rank_HK12</defName>
+    <label>警务处助理处长肩章</label>
+    <description>香港警察警务处助理处长警衔肩章。</description>
+    <graphicData>
+      <texPath>Things/Apparel/HKP_Ranks/HK12/Rank</texPath>
+      <color>(255,255,255)</color>
+    </graphicData>
+    <thingCategories>
+      <li>HKP_RanksCategory</li>
+    </thingCategories>
+    <apparel>
+      <wornGraphicPath>Things/Apparel/HKP_Ranks/HK12/Rank</wornGraphicPath>
+    </apparel>
+    <modExtensions Inherit="True">
+      <li Class="RocketsRanks.RankExtension">
+        <requiredRank>HKP_Rank_HK12</requiredRank>
+      </li>
+    </modExtensions>
+    <uiOrder>112</uiOrder>
+    <madeFromStuff>false</madeFromStuff>
+    <generateCommonality>0</generateCommonality>
+    <tradeability>All</tradeability>
+    <statBases>
+      <MarketValue>100</MarketValue>
+    </statBases>
+  </ThingDef>
+  <ThingDef ParentName="ROCKET_Ranks_Officer">
+    <defName>HKP_Apparel_Rank_HK13</defName>
+    <label>警务处高级助理处长肩章</label>
+    <description>香港警察警务处高级助理处长警衔肩章。</description>
+    <graphicData>
+      <texPath>Things/Apparel/HKP_Ranks/HK13/Rank</texPath>
+      <color>(255,255,255)</color>
+    </graphicData>
+    <thingCategories>
+      <li>HKP_RanksCategory</li>
+    </thingCategories>
+    <apparel>
+      <wornGraphicPath>Things/Apparel/HKP_Ranks/HK13/Rank</wornGraphicPath>
+    </apparel>
+    <modExtensions Inherit="True">
+      <li Class="RocketsRanks.RankExtension">
+        <requiredRank>HKP_Rank_HK13</requiredRank>
+      </li>
+    </modExtensions>
+    <uiOrder>113</uiOrder>
+    <madeFromStuff>false</madeFromStuff>
+    <generateCommonality>0</generateCommonality>
+    <tradeability>All</tradeability>
+    <statBases>
+      <MarketValue>100</MarketValue>
+    </statBases>
+  </ThingDef>
+  <ThingDef ParentName="ROCKET_Ranks_Officer">
+    <defName>HKP_Apparel_Rank_HK14</defName>
+    <label>警务处副处长肩章</label>
+    <description>香港警察警务处副处长警衔肩章。</description>
+    <graphicData>
+      <texPath>Things/Apparel/HKP_Ranks/HK14/Rank</texPath>
+      <color>(255,255,255)</color>
+    </graphicData>
+    <thingCategories>
+      <li>HKP_RanksCategory</li>
+    </thingCategories>
+    <apparel>
+      <wornGraphicPath>Things/Apparel/HKP_Ranks/HK14/Rank</wornGraphicPath>
+    </apparel>
+    <modExtensions Inherit="True">
+      <li Class="RocketsRanks.RankExtension">
+        <requiredRank>HKP_Rank_HK14</requiredRank>
+      </li>
+    </modExtensions>
+    <uiOrder>114</uiOrder>
+    <madeFromStuff>false</madeFromStuff>
+    <generateCommonality>0</generateCommonality>
+    <tradeability>All</tradeability>
+    <statBases>
+      <MarketValue>100</MarketValue>
+    </statBases>
+  </ThingDef>
+  <ThingDef ParentName="ROCKET_Ranks_Officer">
+    <defName>HKP_Apparel_Rank_HK15</defName>
+    <label>警务处处长肩章</label>
+    <description>香港警察警务处处长警衔肩章。</description>
+    <graphicData>
+      <texPath>Things/Apparel/HKP_Ranks/HK15/Rank</texPath>
+      <color>(255,255,255)</color>
+    </graphicData>
+    <thingCategories>
+      <li>HKP_RanksCategory</li>
+    </thingCategories>
+    <apparel>
+      <wornGraphicPath>Things/Apparel/HKP_Ranks/HK15/Rank</wornGraphicPath>
+    </apparel>
+    <modExtensions Inherit="True">
+      <li Class="RocketsRanks.RankExtension">
+        <requiredRank>HKP_Rank_HK15</requiredRank>
+      </li>
+    </modExtensions>
+    <uiOrder>115</uiOrder>
+    <madeFromStuff>false</madeFromStuff>
+    <generateCommonality>0</generateCommonality>
+    <tradeability>All</tradeability>
+    <statBases>
+      <MarketValue>100</MarketValue>
+    </statBases>
+  </ThingDef>
+</Defs>

@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+  <ThingCategoryDef>
+    <defName>HKP_Root</defName>
+    <label>HKP 香港警察</label>
+    <parent>Root</parent>
+  </ThingCategoryDef>
+  <ThingCategoryDef>
+    <defName>HKP_Apparel</defName>
+    <label>HKP 服装</label>
+    <parent>Apparel</parent>
+  </ThingCategoryDef>
+  <ThingCategoryDef>
+    <defName>HKP_Cords</defName>
+    <label>HKP 鸡绳</label>
+    <parent>Apparel</parent>
+  </ThingCategoryDef>
+  <ThingCategoryDef>
+    <defName>HKP_Headgear</defName>
+    <label>HKP 帽子与头盔</label>
+    <parent>Apparel</parent>
+  </ThingCategoryDef>
+  <ThingCategoryDef>
+    <defName>HKP_RanksCategory</defName>
+    <label>HKP 警衔</label>
+    <parent>Apparel</parent>
+  </ThingCategoryDef>
+  <ThingCategoryDef>
+    <defName>HKP_Weapons</defName>
+    <label>HKP 武器</label>
+    <parent>Weapons</parent>
+  </ThingCategoryDef>
+</Defs>

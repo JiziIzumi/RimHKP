@@ -1,0 +1,110 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+  <ThingDef ParentName="BaseBullet">
+    <defName>HKP_Bullet_CF98A</defName>
+    <label>Smith &amp; Wesson Model 10 .38弹丸</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>30</damageAmountBase>
+      <armorPenetrationBase>0.50</armorPenetrationBase>
+      <stoppingPower>3</stoppingPower>
+      <speed>100</speed>
+    </projectile>
+  </ThingDef>
+  <ThingDef ParentName="BaseBullet">
+    <defName>HKP_Bullet_CSLP5</defName>
+    <label>CS/LP5警用手枪弹丸</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>32</damageAmountBase>
+      <armorPenetrationBase>0.60</armorPenetrationBase>
+      <stoppingPower>4</stoppingPower>
+      <speed>120</speed>
+    </projectile>
+  </ThingDef>
+  <ThingDef ParentName="BaseBullet">
+    <defName>HKP_Bullet_CSLS7</defName>
+    <label>CS/LS7冲锋枪弹丸</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>28</damageAmountBase>
+      <armorPenetrationBase>0.60</armorPenetrationBase>
+      <stoppingPower>3.4</stoppingPower>
+      <speed>120</speed>
+    </projectile>
+  </ThingDef>
+  <ThingDef ParentName="BaseBullet">
+    <defName>HKP_Bullet_FederalM201Z</defName>
+    <label>37mm催泪弹</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Smoke</damageDef>
+      <damageAmountBase>0</damageAmountBase>
+      <stoppingPower>7</stoppingPower>
+      <speed>120</speed>
+      <explosionRadius>4.5</explosionRadius>
+      <explosionDelay>0</explosionDelay>
+      <soundExplode>Explosion_Smoke</soundExplode>
+    </projectile>
+  </ThingDef>
+  <ThingDef ParentName="BaseBullet">
+    <defName>HKP_Bullet_Remington870</defName>
+    <label>12G鹿弹</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>27</damageAmountBase>
+      <armorPenetrationBase>0.60</armorPenetrationBase>
+      <stoppingPower>4</stoppingPower>
+      <speed>120</speed>
+    </projectile>
+  </ThingDef>
+  <ThingDef ParentName="BaseBullet">
+    <defName>HKP_Bullet_Remington870_Beanbag</defName>
+    <label>12G豆袋弹</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Stun</damageDef>
+      <damageAmountBase>14</damageAmountBase>
+      <armorPenetrationBase>0.05</armorPenetrationBase>
+      <stoppingPower>6</stoppingPower>
+      <speed>120</speed>
+    </projectile>
+  </ThingDef>
+  <ThingDef ParentName="BaseBullet">
+    <defName>HKP_Bullet_M16A2</defName>
+    <label>5.56mm步枪弹</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>60</damageAmountBase>
+      <armorPenetrationBase>0.70</armorPenetrationBase>
+      <stoppingPower>5</stoppingPower>
+      <speed>120</speed>
+    </projectile>
+  </ThingDef>
+</Defs>
