@@ -26,7 +26,7 @@
     <recipeMaker>
       <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
       <workSkill>Crafting</workSkill>
-      <recipeUsers>
+      <recipeUsers Inherit="False">
         <li>TableMachining</li>
       </recipeUsers>
     </recipeMaker>
@@ -93,7 +93,7 @@
     <recipeMaker>
       <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
       <workSkill>Crafting</workSkill>
-      <recipeUsers>
+      <recipeUsers Inherit="False">
         <li>TableMachining</li>
       </recipeUsers>
     </recipeMaker>
@@ -160,7 +160,7 @@
     <recipeMaker>
       <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
       <workSkill>Crafting</workSkill>
-      <recipeUsers>
+      <recipeUsers Inherit="False">
         <li>TableMachining</li>
       </recipeUsers>
     </recipeMaker>
@@ -227,7 +227,7 @@
     <recipeMaker>
       <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
       <workSkill>Crafting</workSkill>
-      <recipeUsers>
+      <recipeUsers Inherit="False">
         <li>TableMachining</li>
       </recipeUsers>
     </recipeMaker>
@@ -294,7 +294,7 @@
     <recipeMaker>
       <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
       <workSkill>Crafting</workSkill>
-      <recipeUsers>
+      <recipeUsers Inherit="False">
         <li>TableMachining</li>
       </recipeUsers>
     </recipeMaker>
@@ -361,7 +361,7 @@
     <recipeMaker>
       <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
       <workSkill>Crafting</workSkill>
-      <recipeUsers>
+      <recipeUsers Inherit="False">
         <li>TableMachining</li>
       </recipeUsers>
     </recipeMaker>
@@ -428,7 +428,7 @@
     <recipeMaker>
       <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
       <workSkill>Crafting</workSkill>
-      <recipeUsers>
+      <recipeUsers Inherit="False">
         <li>TableMachining</li>
       </recipeUsers>
     </recipeMaker>
@@ -490,7 +490,7 @@
     <recipeMaker>
       <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
       <workSkill>Crafting</workSkill>
-      <recipeUsers>
+      <recipeUsers Inherit="False">
         <li>TableMachining</li>
       </recipeUsers>
     </recipeMaker>
@@ -502,7 +502,7 @@
         </capacities>
         <power>22</power>
         <cooldownTime>1.6</cooldownTime>
-        <armorPenetrationBlunt>0.42</armorPenetrationBlunt>
+        <armorPenetration>0.42</armorPenetration>
       </li>
     </tools>
     <weaponTags>

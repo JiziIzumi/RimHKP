@@ -19,14 +19,13 @@
       <ArmorRating_Sharp>0.40</ArmorRating_Sharp>
       <ArmorRating_Blunt>0.30</ArmorRating_Blunt>
       <ArmorRating_Heat>0.05</ArmorRating_Heat>
-      <MoveSpeed>0</MoveSpeed>
       <MarketValue>100</MarketValue>
     </statBases>
     <costList>
       <Cloth>15</Cloth>
     </costList>
     <recipeMaker>
-      <recipeUsers>
+      <recipeUsers Inherit="False">
         <li>ElectricTailoringBench</li>
         <li>HandTailoringBench</li>
       </recipeUsers>
@@ -46,7 +45,6 @@
       </layers>
       <wornGraphicPath>Things/Apparel/HKP/浅蓝色警察衬衣/浅蓝色警察衬衣</wornGraphicPath>
     </apparel>
-    <madeFromStuff>false</madeFromStuff>
     <equippedStatOffsets>
       <MeleeDodgeChance>0.10</MeleeDodgeChance>
     </equippedStatOffsets>
@@ -72,7 +70,6 @@
       <ArmorRating_Sharp>0.40</ArmorRating_Sharp>
       <ArmorRating_Blunt>0.30</ArmorRating_Blunt>
       <ArmorRating_Heat>0.05</ArmorRating_Heat>
-      <MoveSpeed>0</MoveSpeed>
       <MarketValue>100</MarketValue>
       <Insulation_Cold>10</Insulation_Cold>
       <Insulation_Heat>10</Insulation_Heat>
@@ -81,7 +78,7 @@
       <Cloth>15</Cloth>
     </costList>
     <recipeMaker>
-      <recipeUsers>
+      <recipeUsers Inherit="False">
         <li>ElectricTailoringBench</li>
         <li>HandTailoringBench</li>
       </recipeUsers>
@@ -101,7 +98,6 @@
       </layers>
       <wornGraphicPath>Things/Apparel/HKP/白色高级警察衬衣/白色高级警察衬衣</wornGraphicPath>
     </apparel>
-    <madeFromStuff>false</madeFromStuff>
     <equippedStatOffsets>
       <MeleeDodgeChance>0.10</MeleeDodgeChance>
     </equippedStatOffsets>
@@ -127,14 +123,13 @@
       <ArmorRating_Sharp>0.80</ArmorRating_Sharp>
       <ArmorRating_Blunt>0.80</ArmorRating_Blunt>
       <ArmorRating_Heat>0.4</ArmorRating_Heat>
-      <MoveSpeed>0</MoveSpeed>
       <MarketValue>100</MarketValue>
     </statBases>
     <costList>
       <Cloth>15</Cloth>
     </costList>
     <recipeMaker>
-      <recipeUsers>
+      <recipeUsers Inherit="False">
         <li>ElectricTailoringBench</li>
         <li>HandTailoringBench</li>
       </recipeUsers>
@@ -153,15 +148,12 @@
       </layers>
       <wornGraphicPath>Things/Apparel/HKP/战术裤/战术裤</wornGraphicPath>
     </apparel>
-    <madeFromStuff>false</madeFromStuff>
     <equippedStatOffsets>
       <MeleeDodgeChance>0.10</MeleeDodgeChance>
+      <MoveSpeed>0.92</MoveSpeed>
     </equippedStatOffsets>
     <generateCommonality>0</generateCommonality>
     <tradeability>All</tradeability>
-    <equippedStatFactors>
-      <MoveSpeed>1.20</MoveSpeed>
-    </equippedStatFactors>
   </ThingDef>
   <ThingDef ParentName="ApparelMakeableBase">
     <defName>HKP_Apparel_Windbreaker</defName>
@@ -182,7 +174,6 @@
       <ArmorRating_Sharp>0.60</ArmorRating_Sharp>
       <ArmorRating_Blunt>0.50</ArmorRating_Blunt>
       <ArmorRating_Heat>0.15</ArmorRating_Heat>
-      <MoveSpeed>-0.01</MoveSpeed>
       <MarketValue>100</MarketValue>
       <Insulation_Cold>18</Insulation_Cold>
       <Insulation_Heat>18</Insulation_Heat>
@@ -191,7 +182,7 @@
       <Cloth>15</Cloth>
     </costList>
     <recipeMaker>
-      <recipeUsers>
+      <recipeUsers Inherit="False">
         <li>ElectricTailoringBench</li>
         <li>HandTailoringBench</li>
       </recipeUsers>
@@ -211,9 +202,9 @@
       </layers>
       <wornGraphicPath>Things/Apparel/HKP/香港警察风衣/香港警察风衣</wornGraphicPath>
     </apparel>
-    <madeFromStuff>false</madeFromStuff>
     <equippedStatOffsets>
       <MeleeDodgeChance>0.10</MeleeDodgeChance>
+      <MoveSpeed>-0.01</MoveSpeed>
     </equippedStatOffsets>
     <generateCommonality>0</generateCommonality>
     <tradeability>All</tradeability>
@@ -237,14 +228,13 @@
       <ArmorRating_Sharp>0.90</ArmorRating_Sharp>
       <ArmorRating_Blunt>0.90</ArmorRating_Blunt>
       <ArmorRating_Heat>0.45</ArmorRating_Heat>
-      <MoveSpeed>-0.03</MoveSpeed>
       <MarketValue>100</MarketValue>
     </statBases>
     <costList>
       <Cloth>15</Cloth>
     </costList>
     <recipeMaker>
-      <recipeUsers>
+      <recipeUsers Inherit="False">
         <li>ElectricTailoringBench</li>
         <li>HandTailoringBench</li>
       </recipeUsers>
@@ -263,9 +253,9 @@
       </layers>
       <wornGraphicPath>Things/Apparel/HKP/警察防弹背心/警察防弹背心</wornGraphicPath>
     </apparel>
-    <madeFromStuff>false</madeFromStuff>
     <equippedStatOffsets>
       <MeleeDodgeChance>0.10</MeleeDodgeChance>
+      <MoveSpeed>-0.03</MoveSpeed>
     </equippedStatOffsets>
     <generateCommonality>0</generateCommonality>
     <tradeability>All</tradeability>
@@ -289,14 +279,13 @@
       <ArmorRating_Sharp>0.30</ArmorRating_Sharp>
       <ArmorRating_Blunt>0.35</ArmorRating_Blunt>
       <ArmorRating_Heat>0.15</ArmorRating_Heat>
-      <MoveSpeed>0</MoveSpeed>
       <MarketValue>100</MarketValue>
     </statBases>
     <costList>
       <Cloth>15</Cloth>
     </costList>
     <recipeMaker>
-      <recipeUsers>
+      <recipeUsers Inherit="False">
         <li>ElectricTailoringBench</li>
         <li>HandTailoringBench</li>
       </recipeUsers>
@@ -315,16 +304,13 @@
       </layers>
       <wornGraphicPath>Things/Apparel/HKP/香港警察腰带/香港警察腰带</wornGraphicPath>
     </apparel>
-    <madeFromStuff>false</madeFromStuff>
     <equippedStatOffsets>
       <MeleeDodgeChance>0.10</MeleeDodgeChance>
       <CarryingCapacity>30</CarryingCapacity>
+      <WorkSpeedGlobal>0.20</WorkSpeedGlobal>
     </equippedStatOffsets>
     <generateCommonality>0</generateCommonality>
     <tradeability>All</tradeability>
-    <equippedStatFactors>
-      <GlobalWorkSpeed>1.20</GlobalWorkSpeed>
-    </equippedStatFactors>
   </ThingDef>
   <ThingDef ParentName="ApparelMakeableBase">
     <defName>HKP_Apparel_RedCord</defName>
@@ -345,14 +331,13 @@
       <ArmorRating_Sharp>0.25</ArmorRating_Sharp>
       <ArmorRating_Blunt>0.25</ArmorRating_Blunt>
       <ArmorRating_Heat>0.05</ArmorRating_Heat>
-      <MoveSpeed>0</MoveSpeed>
       <MarketValue>100</MarketValue>
     </statBases>
     <costList>
       <Cloth>15</Cloth>
     </costList>
     <recipeMaker>
-      <recipeUsers>
+      <recipeUsers Inherit="False">
         <li>ElectricTailoringBench</li>
         <li>HandTailoringBench</li>
       </recipeUsers>
@@ -371,17 +356,14 @@
       </layers>
       <wornGraphicPath>Things/Apparel/HKP/红鸡绳/红鸡绳</wornGraphicPath>
     </apparel>
-    <madeFromStuff>false</madeFromStuff>
     <equippedStatOffsets>
       <MeleeDodgeChance>0.10</MeleeDodgeChance>
       <MentalBreakThreshold>-0.20</MentalBreakThreshold>
+      <WorkSpeedGlobal>0.30</WorkSpeedGlobal>
+      <MoveSpeed>0.92</MoveSpeed>
     </equippedStatOffsets>
     <generateCommonality>0</generateCommonality>
     <tradeability>All</tradeability>
-    <equippedStatFactors>
-      <MoveSpeed>1.20</MoveSpeed>
-      <GlobalWorkSpeed>1.30</GlobalWorkSpeed>
-    </equippedStatFactors>
   </ThingDef>
   <ThingDef ParentName="ApparelMakeableBase">
     <defName>HKP_Apparel_PTUVest</defName>
@@ -402,14 +384,13 @@
       <ArmorRating_Sharp>1.00</ArmorRating_Sharp>
       <ArmorRating_Blunt>1.00</ArmorRating_Blunt>
       <ArmorRating_Heat>0.50</ArmorRating_Heat>
-      <MoveSpeed>0</MoveSpeed>
       <MarketValue>100</MarketValue>
     </statBases>
     <costList>
       <Cloth>15</Cloth>
     </costList>
     <recipeMaker>
-      <recipeUsers>
+      <recipeUsers Inherit="False">
         <li>ElectricTailoringBench</li>
         <li>HandTailoringBench</li>
       </recipeUsers>
@@ -428,17 +409,14 @@
       </layers>
       <wornGraphicPath>Things/Apparel/HKP/PTU战术背心/PTU战术背心</wornGraphicPath>
     </apparel>
-    <madeFromStuff>false</madeFromStuff>
     <equippedStatOffsets>
       <MeleeDodgeChance>0.10</MeleeDodgeChance>
       <CarryingCapacity>30</CarryingCapacity>
       <MentalBreakThreshold>-0.15</MentalBreakThreshold>
+      <MoveSpeed>0.92</MoveSpeed>
     </equippedStatOffsets>
     <generateCommonality>0</generateCommonality>
     <tradeability>All</tradeability>
-    <equippedStatFactors>
-      <MoveSpeed>1.20</MoveSpeed>
-    </equippedStatFactors>
   </ThingDef>
   <ThingDef ParentName="ApparelMakeableBase">
     <defName>HKP_Apparel_RadioBodycam</defName>
@@ -484,7 +462,7 @@
       <workSkill>Crafting</workSkill>
       <effectWorking>Smith</effectWorking>
       <soundWorking>Recipe_Machining</soundWorking>
-      <recipeUsers>
+      <recipeUsers Inherit="False">
         <li>TableMachining</li>
       </recipeUsers>
       <skillRequirements>
@@ -492,7 +470,6 @@
       </skillRequirements>
       <useIngredientsForColor>false</useIngredientsForColor>
     </recipeMaker>
-    <madeFromStuff>false</madeFromStuff>
     <generateCommonality>0</generateCommonality>
     <tradeability>All</tradeability>
   </ThingDef>
@@ -536,13 +513,14 @@
     </apparel>
     <equippedStatOffsets>
       <MeleeDodgeChance>0.60</MeleeDodgeChance>
+      <MoveSpeed>2.30</MoveSpeed>
     </equippedStatOffsets>
     <recipeMaker>
       <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
       <workSkill>Crafting</workSkill>
       <effectWorking>Smith</effectWorking>
       <soundWorking>Recipe_Machining</soundWorking>
-      <recipeUsers>
+      <recipeUsers Inherit="False">
         <li>TableMachining</li>
       </recipeUsers>
       <skillRequirements>
@@ -550,12 +528,8 @@
       </skillRequirements>
       <useIngredientsForColor>false</useIngredientsForColor>
     </recipeMaker>
-    <madeFromStuff>false</madeFromStuff>
     <generateCommonality>0</generateCommonality>
     <tradeability>All</tradeability>
-    <equippedStatFactors>
-      <MoveSpeed>1.50</MoveSpeed>
-    </equippedStatFactors>
   </ThingDef>
   <ThingDef ParentName="ApparelMakeableBase">
     <defName>HKP_Apparel_ReflectiveSleeve</defName>
@@ -584,7 +558,7 @@
       <Cloth>5</Cloth>
     </costList>
     <recipeMaker>
-      <recipeUsers>
+      <recipeUsers Inherit="False">
         <li>ElectricTailoringBench</li>
         <li>HandTailoringBench</li>
       </recipeUsers>
@@ -607,7 +581,6 @@
       </layers>
       <wornGraphicPath>Things/Apparel/HKP/反光袖套/反光袖套</wornGraphicPath>
     </apparel>
-    <madeFromStuff>false</madeFromStuff>
     <equippedStatOffsets>
       <MentalBreakThreshold>-0.10</MentalBreakThreshold>
       <MeleeDodgeChance>0.10</MeleeDodgeChance>
@@ -635,14 +608,13 @@
       <ArmorRating_Sharp>1.00</ArmorRating_Sharp>
       <ArmorRating_Blunt>1.00</ArmorRating_Blunt>
       <ArmorRating_Heat>1.00</ArmorRating_Heat>
-      <MoveSpeed>0</MoveSpeed>
       <MarketValue>100</MarketValue>
     </statBases>
     <costList>
       <Cloth>15</Cloth>
     </costList>
     <recipeMaker>
-      <recipeUsers>
+      <recipeUsers Inherit="False">
         <li>ElectricTailoringBench</li>
         <li>HandTailoringBench</li>
       </recipeUsers>
@@ -663,7 +635,6 @@
       </layers>
       <wornGraphicPath>Things/Apparel/HKP/高级警员常服外套/高级警员常服外套</wornGraphicPath>
     </apparel>
-    <madeFromStuff>false</madeFromStuff>
     <equippedStatOffsets>
       <MeleeDodgeChance>0.80</MeleeDodgeChance>
     </equippedStatOffsets>

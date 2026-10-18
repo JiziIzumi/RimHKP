@@ -5,6 +5,7 @@
   <packageId>vincentz.hkp</packageId>
   <supportedVersions>
     <li>1.6</li>
+    <li>1.7</li>
   </supportedVersions>
   <description>HKP 香港警察装备警衔扩展 是一款面向《RimWorld》的香港警察主题装备 MOD。本 MOD 以香港警察的制服、战术装备、警衔系统及警用武器为核心，将不同警种、不同职级使用的装备整合进游戏，并针对《RimWorld》的战斗与装备系统进行了适当强化和游戏化调整。MOD 目前以 非 CE 环境 为主要运行版本，不依赖 Combat Extended。</description>
   <modDependencies>
