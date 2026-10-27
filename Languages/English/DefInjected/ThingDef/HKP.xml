@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <HKP_Apparel_BlueShirt.label>HKP Light Blue Police Shirt</HKP_Apparel_BlueShirt.label>
+  <HKP_Apparel_BlueShirt.description>Light blue uniform shirt worn by Hong Kong Police Force officers.</HKP_Apparel_BlueShirt.description>
+  <HKP_Apparel_WhiteShirt.label>HKP White Senior Officer Shirt</HKP_Apparel_WhiteShirt.label>
+  <HKP_Apparel_WhiteShirt.description>White uniform shirt worn by senior Hong Kong Police Force officers.</HKP_Apparel_WhiteShirt.description>
+  <HKP_Apparel_TacticalPants.label>HKP Tactical Trousers</HKP_Apparel_TacticalPants.label>
+  <HKP_Apparel_TacticalPants.description>HKP tactical trousers that protect the legs from bullets, sharp weapons, and blunt impacts.</HKP_Apparel_TacticalPants.description>
+  <HKP_Apparel_Windbreaker.label>HKP Police Windbreaker</HKP_Apparel_Windbreaker.label>
+  <HKP_Apparel_Windbreaker.description>A Hong Kong Police Force windbreaker.</HKP_Apparel_Windbreaker.description>
+  <HKP_Apparel_BallisticVest.label>HKP Ballistic Vest</HKP_Apparel_BallisticVest.label>
+  <HKP_Apparel_BallisticVest.description>A ballistic vest used by the Hong Kong Police Force.</HKP_Apparel_BallisticVest.description>
+  <HKP_Apparel_DutyBelt.label>HKP Duty Belt</HKP_Apparel_DutyBelt.label>
+  <HKP_Apparel_DutyBelt.description>A duty belt used by the Hong Kong Police Force.</HKP_Apparel_DutyBelt.description>
+  <HKP_Apparel_RedCord.label>HKP Red Whistle Lanyard</HKP_Apparel_RedCord.label>
+  <HKP_Apparel_RedCord.description>A red whistle lanyard worn with the HKP uniform.</HKP_Apparel_RedCord.description>
+  <HKP_Apparel_PTUVest.label>HKP PTU Tactical Vest</HKP_Apparel_PTUVest.label>
+  <HKP_Apparel_PTUVest.description>A tactical vest worn by the Hong Kong Police Force's Police Tactical Unit (PTU). This item uses the existing vest texture.</HKP_Apparel_PTUVest.description>
+  <HKP_Apparel_RadioBodycam.label>HKP Radio and Body-Worn Camera</HKP_Apparel_RadioBodycam.label>
+  <HKP_Apparel_RadioBodycam.description>A combined handheld radio and body-worn camera accessory for HKP officers, worn on the chest.</HKP_Apparel_RadioBodycam.description>
+  <HKP_Apparel_RiotShield.label>HKP Riot Shield</HKP_Apparel_RiotShield.label>
+  <HKP_Apparel_RiotShield.description>A Hong Kong Police Force riot shield that can be used with a riot baton. Provides 80% protection against melee and blunt damage and 60% protection against ranged attacks.</HKP_Apparel_RiotShield.description>
+  <HKP_Apparel_ReflectiveSleeve.label>HKP Reflective Armband</HKP_Apparel_ReflectiveSleeve.label>
+  <HKP_Apparel_ReflectiveSleeve.description>A reflective armband worn by HKP officers. It appears over the vest, below the body-worn camera, and below the rank insignia.</HKP_Apparel_ReflectiveSleeve.description>
+  <HKP_Apparel_SeniorOfficerCoat.label>HKP Senior Police Constable Service Jacket</HKP_Apparel_SeniorOfficerCoat.label>
+  <HKP_Apparel_SeniorOfficerCoat.description>A Hong Kong Police Force service jacket for Senior Police Constables. Provides strong full-body protection and greatly improves melee dodge chance.</HKP_Apparel_SeniorOfficerCoat.description>
+
+  <HKP_Headgear_PeakedCap_Constable.label>HKP Rank-and-File Peaked Cap</HKP_Headgear_PeakedCap_Constable.label>
+  <HKP_Headgear_PeakedCap_Constable.description>A Hong Kong Police Force peaked cap worn by rank-and-file officers.</HKP_Headgear_PeakedCap_Constable.description>
+  <HKP_Headgear_PatrolCap.label>HKP Patrol Cap</HKP_Headgear_PatrolCap.label>
+  <HKP_Headgear_PatrolCap.description>A patrol cap worn by Hong Kong Police Force officers.</HKP_Headgear_PatrolCap.description>
+  <HKP_Headgear_EULightHelmet.label>HKP PTU Light Tactical Helmet</HKP_Headgear_EULightHelmet.label>
+  <HKP_Headgear_EULightHelmet.description>A light tactical helmet worn by the Hong Kong Police Force's Police Tactical Unit (PTU).</HKP_Headgear_EULightHelmet.description>
+  <HKP_Headgear_Beret_PTU.label>HKP PTU Blue Beret</HKP_Headgear_Beret_PTU.label>
+  <HKP_Headgear_Beret_PTU.description>A blue beret worn by the Hong Kong Police Force's Police Tactical Unit (PTU).</HKP_Headgear_Beret_PTU.description>
+  <HKP_Headgear_RiotHelmet.label>HKP Police Constable Riot Helmet</HKP_Headgear_RiotHelmet.label>
+  <HKP_Headgear_RiotHelmet.description>A riot helmet issued to Hong Kong Police Force officers, including PTU personnel.</HKP_Headgear_RiotHelmet.description>
+  <HKP_Headgear_PeakedCap_Superintendent.label>HKP Superintendent's Peaked Cap</HKP_Headgear_PeakedCap_Superintendent.label>
+  <HKP_Headgear_PeakedCap_Superintendent.description>A peaked cap worn by a Hong Kong Police Force Superintendent.</HKP_Headgear_PeakedCap_Superintendent.description>
+  <HKP_Headgear_PeakedCap_SeniorSuperintendent.label>HKP Senior Superintendent's Peaked Cap</HKP_Headgear_PeakedCap_SeniorSuperintendent.label>
+  <HKP_Headgear_PeakedCap_SeniorSuperintendent.description>A peaked cap worn by a Hong Kong Police Force Senior Superintendent.</HKP_Headgear_PeakedCap_SeniorSuperintendent.description>
+  <HKP_Headgear_PeakedCap_AssistantCommissioner.label>HKP Assistant Commissioner's Peaked Cap</HKP_Headgear_PeakedCap_AssistantCommissioner.label>
+  <HKP_Headgear_PeakedCap_AssistantCommissioner.description>A peaked cap worn by a Hong Kong Police Force Assistant Commissioner.</HKP_Headgear_PeakedCap_AssistantCommissioner.description>
+  <HKP_Headgear_PeakedCap_Commissioner.label>HKP Commissioner's Peaked Cap</HKP_Headgear_PeakedCap_Commissioner.label>
+  <HKP_Headgear_PeakedCap_Commissioner.description>A peaked cap worn by the Commissioner of Police.</HKP_Headgear_PeakedCap_Commissioner.description>
+  <HKP_Headgear_Beret_Constable.label>HKP Police Constable Beret</HKP_Headgear_Beret_Constable.label>
+  <HKP_Headgear_Beret_Constable.description>A beret for a Hong Kong Police Force Police Constable. It currently reuses an existing beret texture.</HKP_Headgear_Beret_Constable.description>
+
+  <HKP_Weapon_CF98A.label>HKP Smith &amp; Wesson Model 10 .38 Revolver</HKP_Weapon_CF98A.label>
+  <HKP_Weapon_CF98A.description>A Smith &amp; Wesson Model 10 .38 revolver used by the Hong Kong Police Force. Its internal DefName remains HKP_Weapon_CF98A for save compatibility.</HKP_Weapon_CF98A.description>
+  <HKP_Weapon_CSLP5.label>HKP CS/LP5 Police Pistol</HKP_Weapon_CSLP5.label>
+  <HKP_Weapon_CSLP5.description>A CS/LP5 police pistol used by the Hong Kong Police Force.</HKP_Weapon_CSLP5.description>
+  <HKP_Weapon_CSLS7.label>HKP CS/LS7 Submachine Gun</HKP_Weapon_CSLS7.label>
+  <HKP_Weapon_CSLS7.description>A CS/LS7 submachine gun used by the Hong Kong Police Force.</HKP_Weapon_CSLS7.description>
+  <HKP_Weapon_FederalM201Z.label>HKP Federal M201-Z Tear Gas Launcher</HKP_Weapon_FederalM201Z.label>
+  <HKP_Weapon_FederalM201Z.description>A 37 mm tear gas launcher. Its round releases a large cloud of smoke and causes strong suppression on impact.</HKP_Weapon_FederalM201Z.description>
+  <HKP_Weapon_Remington870.label>HKP Remington 870 Police Shotgun</HKP_Weapon_Remington870.label>
+  <HKP_Weapon_Remington870.description>A police Remington 870 improved from the vanilla pump-action shotgun, with 50% more damage and range.</HKP_Weapon_Remington870.description>
+  <HKP_Weapon_Remington870_Beanbag.label>HKP Remington 870 Beanbag Shotgun</HKP_Weapon_Remington870_Beanbag.label>
+  <HKP_Weapon_Remington870_Beanbag.description>A non-lethal Remington 870 beanbag shotgun. Its high-stopping-power rounds are intended to incapacitate an average human target in about two hits.</HKP_Weapon_Remington870_Beanbag.description>
+  <HKP_Weapon_M16A2.label>HKP M16A2 Rifle</HKP_Weapon_M16A2.label>
+  <HKP_Weapon_M16A2.description>An M16A2 rifle used by the Hong Kong Police Force.</HKP_Weapon_M16A2.description>
+  <HKP_Weapon_RiotBaton.label>HKP Riot Baton</HKP_Weapon_RiotBaton.label>
+  <HKP_Weapon_RiotBaton.description>A riot baton designed to quickly suppress targets. Two strikes are usually enough to suppress or stun a target.</HKP_Weapon_RiotBaton.description>
+
+  <HKP_Bullet_CF98A.label>Smith &amp; Wesson Model 10 .38 Round</HKP_Bullet_CF98A.label>
+  <HKP_Bullet_CSLP5.label>CS/LP5 Police Pistol Round</HKP_Bullet_CSLP5.label>
+  <HKP_Bullet_CSLS7.label>CS/LS7 Submachine Gun Round</HKP_Bullet_CSLS7.label>
+  <HKP_Bullet_FederalM201Z.label>37 mm Tear Gas Round</HKP_Bullet_FederalM201Z.label>
+  <HKP_Bullet_Remington870.label>12-Gauge Buckshot</HKP_Bullet_Remington870.label>
+  <HKP_Bullet_Remington870_Beanbag.label>12-Gauge Beanbag Round</HKP_Bullet_Remington870_Beanbag.label>
+  <HKP_Bullet_M16A2.label>5.56 mm Rifle Round</HKP_Bullet_M16A2.label>
+
+  <HKP_Apparel_Rank_HK1.label>HKP Police Constable Epaulettes</HKP_Apparel_Rank_HK1.label>
+  <HKP_Apparel_Rank_HK1.description>Rank epaulettes for a Hong Kong Police Force Police Constable.</HKP_Apparel_Rank_HK1.description>
+  <HKP_Apparel_Rank_HK2.label>HKP Senior Police Constable Epaulettes</HKP_Apparel_Rank_HK2.label>
+  <HKP_Apparel_Rank_HK2.description>Rank epaulettes for a Hong Kong Police Force Senior Police Constable.</HKP_Apparel_Rank_HK2.description>
+  <HKP_Apparel_Rank_HK3.label>HKP Sergeant Epaulettes</HKP_Apparel_Rank_HK3.label>
+  <HKP_Apparel_Rank_HK3.description>Rank epaulettes for a Hong Kong Police Force Sergeant.</HKP_Apparel_Rank_HK3.description>
+  <HKP_Apparel_Rank_HK4.label>HKP Station Sergeant Epaulettes</HKP_Apparel_Rank_HK4.label>
+  <HKP_Apparel_Rank_HK4.description>Rank epaulettes for a Hong Kong Police Force Station Sergeant.</HKP_Apparel_Rank_HK4.description>
+  <HKP_Apparel_Rank_HK5.label>HKP Probationary Inspector Epaulettes</HKP_Apparel_Rank_HK5.label>
+  <HKP_Apparel_Rank_HK5.description>Rank epaulettes for a Hong Kong Police Force Probationary Inspector.</HKP_Apparel_Rank_HK5.description>
+  <HKP_Apparel_Rank_HK6.label>HKP Inspector Epaulettes</HKP_Apparel_Rank_HK6.label>
+  <HKP_Apparel_Rank_HK6.description>Rank epaulettes for a Hong Kong Police Force Inspector.</HKP_Apparel_Rank_HK6.description>
+  <HKP_Apparel_Rank_HK7.label>HKP Senior Inspector Epaulettes</HKP_Apparel_Rank_HK7.label>
+  <HKP_Apparel_Rank_HK7.description>Rank epaulettes for a Hong Kong Police Force Senior Inspector.</HKP_Apparel_Rank_HK7.description>
+  <HKP_Apparel_Rank_HK8.label>HKP Chief Inspector Epaulettes</HKP_Apparel_Rank_HK8.label>
+  <HKP_Apparel_Rank_HK8.description>Rank epaulettes for a Hong Kong Police Force Chief Inspector.</HKP_Apparel_Rank_HK8.description>
+  <HKP_Apparel_Rank_HK9.label>HKP Superintendent Epaulettes</HKP_Apparel_Rank_HK9.label>
+  <HKP_Apparel_Rank_HK9.description>Rank epaulettes for a Hong Kong Police Force Superintendent.</HKP_Apparel_Rank_HK9.description>
+  <HKP_Apparel_Rank_HK10.label>HKP Senior Superintendent Epaulettes</HKP_Apparel_Rank_HK10.label>
+  <HKP_Apparel_Rank_HK10.description>Rank epaulettes for a Hong Kong Police Force Senior Superintendent.</HKP_Apparel_Rank_HK10.description>
+  <HKP_Apparel_Rank_HK11.label>HKP Chief Superintendent Epaulettes</HKP_Apparel_Rank_HK11.label>
+  <HKP_Apparel_Rank_HK11.description>Rank epaulettes for a Hong Kong Police Force Chief Superintendent.</HKP_Apparel_Rank_HK11.description>
+  <HKP_Apparel_Rank_HK12.label>HKP Assistant Commissioner Epaulettes</HKP_Apparel_Rank_HK12.label>
+  <HKP_Apparel_Rank_HK12.description>Rank epaulettes for a Hong Kong Police Force Assistant Commissioner.</HKP_Apparel_Rank_HK12.description>
+  <HKP_Apparel_Rank_HK13.label>HKP Senior Assistant Commissioner Epaulettes</HKP_Apparel_Rank_HK13.label>
+  <HKP_Apparel_Rank_HK13.description>Rank epaulettes for a Hong Kong Police Force Senior Assistant Commissioner.</HKP_Apparel_Rank_HK13.description>
+  <HKP_Apparel_Rank_HK14.label>HKP Deputy Commissioner Epaulettes</HKP_Apparel_Rank_HK14.label>
+  <HKP_Apparel_Rank_HK14.description>Rank epaulettes for a Hong Kong Police Force Deputy Commissioner.</HKP_Apparel_Rank_HK14.description>
+  <HKP_Apparel_Rank_HK15.label>HKP Commissioner of Police Epaulettes</HKP_Apparel_Rank_HK15.label>
+  <HKP_Apparel_Rank_HK15.description>Rank epaulettes for the Commissioner of Police.</HKP_Apparel_Rank_HK15.description>
+</LanguageData>

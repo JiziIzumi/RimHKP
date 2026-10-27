@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <HKP_Rank_HK1.label>Police Constable</HKP_Rank_HK1.label>
+  <HKP_Rank_HK1.description>Police Constable.</HKP_Rank_HK1.description>
+  <HKP_Rank_HK2.label>Senior Police Constable</HKP_Rank_HK2.label>
+  <HKP_Rank_HK2.description>Senior Police Constable.</HKP_Rank_HK2.description>
+  <HKP_Rank_HK3.label>Sergeant</HKP_Rank_HK3.label>
+  <HKP_Rank_HK3.description>Sergeant.</HKP_Rank_HK3.description>
+  <HKP_Rank_HK4.label>Station Sergeant</HKP_Rank_HK4.label>
+  <HKP_Rank_HK4.description>Station Sergeant.</HKP_Rank_HK4.description>
+  <HKP_Rank_HK5.label>Probationary Inspector</HKP_Rank_HK5.label>
+  <HKP_Rank_HK5.description>Probationary Inspector.</HKP_Rank_HK5.description>
+  <HKP_Rank_HK6.label>Inspector</HKP_Rank_HK6.label>
+  <HKP_Rank_HK6.description>Inspector.</HKP_Rank_HK6.description>
+  <HKP_Rank_HK7.label>Senior Inspector</HKP_Rank_HK7.label>
+  <HKP_Rank_HK7.description>Senior Inspector.</HKP_Rank_HK7.description>
+  <HKP_Rank_HK8.label>Chief Inspector</HKP_Rank_HK8.label>
+  <HKP_Rank_HK8.description>Chief Inspector.</HKP_Rank_HK8.description>
+  <HKP_Rank_HK9.label>Superintendent</HKP_Rank_HK9.label>
+  <HKP_Rank_HK9.description>Superintendent.</HKP_Rank_HK9.description>
+  <HKP_Rank_HK10.label>Senior Superintendent</HKP_Rank_HK10.label>
+  <HKP_Rank_HK10.description>Senior Superintendent.</HKP_Rank_HK10.description>
+  <HKP_Rank_HK11.label>Chief Superintendent</HKP_Rank_HK11.label>
+  <HKP_Rank_HK11.description>Chief Superintendent.</HKP_Rank_HK11.description>
+  <HKP_Rank_HK12.label>Assistant Commissioner</HKP_Rank_HK12.label>
+  <HKP_Rank_HK12.description>Assistant Commissioner.</HKP_Rank_HK12.description>
+  <HKP_Rank_HK13.label>Senior Assistant Commissioner</HKP_Rank_HK13.label>
+  <HKP_Rank_HK13.description>Senior Assistant Commissioner.</HKP_Rank_HK13.description>
+  <HKP_Rank_HK14.label>Deputy Commissioner</HKP_Rank_HK14.label>
+  <HKP_Rank_HK14.description>Deputy Commissioner.</HKP_Rank_HK14.description>
+  <HKP_Rank_HK15.label>Commissioner of Police</HKP_Rank_HK15.label>
+  <HKP_Rank_HK15.description>Commissioner of Police.</HKP_Rank_HK15.description>
+</LanguageData>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <HKP_Uniform.label>HKP Uniform Layer</HKP_Uniform.label>
+  <HKP_Cord.label>HKP Lanyard Layer</HKP_Cord.label>
+  <HKP_Vest.label>HKP Vest Layer</HKP_Vest.label>
+  <HKP_Outer.label>HKP Outerwear Layer</HKP_Outer.label>
+  <HKP_Belt.label>HKP Duty Belt Layer</HKP_Belt.label>
+  <HKP_Shield.label>HKP Riot Shield Layer</HKP_Shield.label>
+  <HKP_Bodycam.label>HKP Body-Worn Camera Layer</HKP_Bodycam.label>
+  <HKP_ReflectiveSleeve.label>HKP Reflective Armband Layer</HKP_ReflectiveSleeve.label>
+</LanguageData>
