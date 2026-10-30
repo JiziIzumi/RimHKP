@@ -15,11 +15,11 @@
   <HKP_Apparel_RedCord.label>HKP Red Whistle Lanyard</HKP_Apparel_RedCord.label>
   <HKP_Apparel_RedCord.description>A red whistle lanyard worn with the HKP uniform.</HKP_Apparel_RedCord.description>
   <HKP_Apparel_PTUVest.label>HKP PTU Tactical Vest</HKP_Apparel_PTUVest.label>
-  <HKP_Apparel_PTUVest.description>A tactical vest worn by the Hong Kong Police Force's Police Tactical Unit (PTU). This item uses the existing vest texture.</HKP_Apparel_PTUVest.description>
+  <HKP_Apparel_PTUVest.description>A tactical vest with ballistic plates and load-bearing pouches, worn by the Hong Kong Police Force's Police Tactical Unit (PTU).</HKP_Apparel_PTUVest.description>
   <HKP_Apparel_RadioBodycam.label>HKP Radio and Body-Worn Camera</HKP_Apparel_RadioBodycam.label>
   <HKP_Apparel_RadioBodycam.description>A combined handheld radio and body-worn camera accessory for HKP officers, worn on the chest.</HKP_Apparel_RadioBodycam.description>
   <HKP_Apparel_RiotShield.label>HKP Riot Shield</HKP_Apparel_RiotShield.label>
-  <HKP_Apparel_RiotShield.description>A Hong Kong Police Force riot shield that can be used with a riot baton. Provides 80% protection against melee and blunt damage and 60% protection against ranged attacks.</HKP_Apparel_RiotShield.description>
+  <HKP_Apparel_RiotShield.description>A Hong Kong Police Force riot shield that can be used with a riot baton. Provides about 60% protection against sharp damage (including bullets) and 80% against blunt damage, but its weight reduces movement speed.</HKP_Apparel_RiotShield.description>
   <HKP_Apparel_ReflectiveSleeve.label>HKP Reflective Armband</HKP_Apparel_ReflectiveSleeve.label>
   <HKP_Apparel_ReflectiveSleeve.description>A reflective armband worn by HKP officers. It appears over the vest, below the body-worn camera, and below the rank insignia.</HKP_Apparel_ReflectiveSleeve.description>
   <HKP_Apparel_SeniorOfficerCoat.label>HKP Senior Police Constable Service Jacket</HKP_Apparel_SeniorOfficerCoat.label>
@@ -44,24 +44,24 @@
   <HKP_Headgear_PeakedCap_Commissioner.label>HKP Commissioner's Peaked Cap</HKP_Headgear_PeakedCap_Commissioner.label>
   <HKP_Headgear_PeakedCap_Commissioner.description>A peaked cap worn by the Commissioner of Police.</HKP_Headgear_PeakedCap_Commissioner.description>
   <HKP_Headgear_Beret_Constable.label>HKP Police Constable Beret</HKP_Headgear_Beret_Constable.label>
-  <HKP_Headgear_Beret_Constable.description>A beret for a Hong Kong Police Force Police Constable. It currently reuses an existing beret texture.</HKP_Headgear_Beret_Constable.description>
+  <HKP_Headgear_Beret_Constable.description>A beret worn by Hong Kong Police Force Police Constables.</HKP_Headgear_Beret_Constable.description>
 
   <HKP_Weapon_CF98A.label>HKP Smith &amp; Wesson Model 10 .38 Revolver</HKP_Weapon_CF98A.label>
-  <HKP_Weapon_CF98A.description>A Smith &amp; Wesson Model 10 .38 revolver used by the Hong Kong Police Force. Its internal DefName remains HKP_Weapon_CF98A for save compatibility.</HKP_Weapon_CF98A.description>
+  <HKP_Weapon_CF98A.description>The Smith &amp; Wesson Model 10 .38 revolver, long issued to the Hong Kong Police Force. Simple and reliable.</HKP_Weapon_CF98A.description>
   <HKP_Weapon_CSLP5.label>HKP CS/LP5 Police Pistol</HKP_Weapon_CSLP5.label>
   <HKP_Weapon_CSLP5.description>A CS/LP5 police pistol used by the Hong Kong Police Force.</HKP_Weapon_CSLP5.description>
   <HKP_Weapon_CSLS7.label>HKP CS/LS7 Submachine Gun</HKP_Weapon_CSLS7.label>
   <HKP_Weapon_CSLS7.description>A CS/LS7 submachine gun used by the Hong Kong Police Force.</HKP_Weapon_CSLS7.description>
   <HKP_Weapon_FederalM201Z.label>HKP Federal M201-Z Tear Gas Launcher</HKP_Weapon_FederalM201Z.label>
-  <HKP_Weapon_FederalM201Z.description>A 37 mm tear gas launcher. Its round releases a large cloud of smoke and causes strong suppression on impact.</HKP_Weapon_FederalM201Z.description>
+  <HKP_Weapon_FederalM201Z.description>A 37 mm tear gas launcher. Its round releases a cloud of smoke on landing, obscuring incoming shots and preventing turrets from locking on. Can be fired at any spot on the ground.</HKP_Weapon_FederalM201Z.description>
   <HKP_Weapon_Remington870.label>HKP Remington 870 Police Shotgun</HKP_Weapon_Remington870.label>
-  <HKP_Weapon_Remington870.description>A police Remington 870 improved from the vanilla pump-action shotgun, with 50% more damage and range.</HKP_Weapon_Remington870.description>
+  <HKP_Weapon_Remington870.description>A Remington 870 police pump-action shotgun, performing slightly better than the vanilla pump shotgun.</HKP_Weapon_Remington870.description>
   <HKP_Weapon_Remington870_Beanbag.label>HKP Remington 870 Beanbag Shotgun</HKP_Weapon_Remington870_Beanbag.label>
-  <HKP_Weapon_Remington870_Beanbag.description>A non-lethal Remington 870 beanbag shotgun. Its high-stopping-power rounds are intended to incapacitate an average human target in about two hits.</HKP_Weapon_Remington870_Beanbag.description>
+  <HKP_Weapon_Remington870_Beanbag.description>A non-lethal Remington 870 firing 12-gauge beanbag rounds. Beanbags deal little damage, but every hit briefly stuns the target and their high stopping power makes it stagger. Meant for subduing, not killing.</HKP_Weapon_Remington870_Beanbag.description>
   <HKP_Weapon_M16A2.label>HKP M16A2 Rifle</HKP_Weapon_M16A2.label>
   <HKP_Weapon_M16A2.description>An M16A2 rifle used by the Hong Kong Police Force.</HKP_Weapon_M16A2.description>
   <HKP_Weapon_RiotBaton.label>HKP Riot Baton</HKP_Weapon_RiotBaton.label>
-  <HKP_Weapon_RiotBaton.description>A riot baton designed to quickly suppress targets. Two strikes are usually enough to suppress or stun a target.</HKP_Weapon_RiotBaton.description>
+  <HKP_Weapon_RiotBaton.description>A Hong Kong Police Force riot baton. Hits slightly harder than a vanilla mace, and each strike has a 50% chance to briefly stun the target. Two strikes are usually enough to subdue someone.</HKP_Weapon_RiotBaton.description>
 
   <HKP_Bullet_CF98A.label>Smith &amp; Wesson Model 10 .38 Round</HKP_Bullet_CF98A.label>
   <HKP_Bullet_CSLP5.label>CS/LP5 Police Pistol Round</HKP_Bullet_CSLP5.label>

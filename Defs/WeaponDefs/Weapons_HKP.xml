@@ -3,20 +3,20 @@
   <ThingDef ParentName="BaseMakeableGun">
     <defName>HKP_Weapon_CF98A</defName>
     <label>HKP Smith &amp; Wesson Model 10 .38左轮手枪</label>
-    <description>香港警察装备：Smith &amp; Wesson Model 10 .38左轮手枪。为兼容旧存档，内部DefName保留为HKP_Weapon_CF98A。</description>
+    <description>香港警察长期配发的Smith &amp; Wesson Model 10 .38左轮手枪，可靠耐用。</description>
     <graphicData>
       <texPath>Things/Weapon/HKP_CF98A</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>1.00</drawSize>
     </graphicData>
     <statBases>
-      <WorkToMake>100</WorkToMake>
+      <WorkToMake>2000</WorkToMake>
       <Mass>1.1</Mass>
-      <AccuracyTouch>1.0</AccuracyTouch>
-      <AccuracyShort>0.96</AccuracyShort>
-      <AccuracyMedium>0.78</AccuracyMedium>
-      <AccuracyLong>0.5</AccuracyLong>
-      <RangedWeapon_Cooldown>0.3</RangedWeapon_Cooldown>
+      <AccuracyTouch>0.85</AccuracyTouch>
+      <AccuracyShort>0.80</AccuracyShort>
+      <AccuracyMedium>0.58</AccuracyMedium>
+      <AccuracyLong>0.42</AccuracyLong>
+      <RangedWeapon_Cooldown>1.5</RangedWeapon_Cooldown>
     </statBases>
     <costList>
       <Steel>35</Steel>
@@ -24,6 +24,7 @@
       <Chemfuel>5</Chemfuel>
     </costList>
     <recipeMaker>
+      <researchPrerequisite>HKP_Research_ServiceWeapons</researchPrerequisite>
       <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
       <workSkill>Crafting</workSkill>
       <recipeUsers Inherit="False">
@@ -35,8 +36,8 @@
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>HKP_Bullet_CF98A</defaultProjectile>
-        <warmupTime>0.1375</warmupTime>
-        <range>30</range>
+        <warmupTime>0.28</warmupTime>
+        <range>27.4</range>
         <burstShotCount>1</burstShotCount>
         <ticksBetweenBurstShots>12</ticksBetweenBurstShots>
         <soundCast>Shot_Revolver</soundCast>
@@ -77,13 +78,13 @@
       <drawSize>1.05</drawSize>
     </graphicData>
     <statBases>
-      <WorkToMake>100</WorkToMake>
+      <WorkToMake>2000</WorkToMake>
       <Mass>0.9</Mass>
-      <AccuracyTouch>1.0</AccuracyTouch>
-      <AccuracyShort>0.96</AccuracyShort>
-      <AccuracyMedium>0.78</AccuracyMedium>
-      <AccuracyLong>0.5</AccuracyLong>
-      <RangedWeapon_Cooldown>0.25</RangedWeapon_Cooldown>
+      <AccuracyTouch>0.85</AccuracyTouch>
+      <AccuracyShort>0.74</AccuracyShort>
+      <AccuracyMedium>0.43</AccuracyMedium>
+      <AccuracyLong>0.32</AccuracyLong>
+      <RangedWeapon_Cooldown>0.95</RangedWeapon_Cooldown>
     </statBases>
     <costList>
       <Steel>35</Steel>
@@ -91,6 +92,7 @@
       <Chemfuel>5</Chemfuel>
     </costList>
     <recipeMaker>
+      <researchPrerequisite>HKP_Research_EUWeapons</researchPrerequisite>
       <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
       <workSkill>Crafting</workSkill>
       <recipeUsers Inherit="False">
@@ -102,8 +104,8 @@
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>HKP_Bullet_CSLP5</defaultProjectile>
-        <warmupTime>0.12</warmupTime>
-        <range>30</range>
+        <warmupTime>0.28</warmupTime>
+        <range>27.4</range>
         <burstShotCount>1</burstShotCount>
         <ticksBetweenBurstShots>12</ticksBetweenBurstShots>
         <soundCast>Shot_Autopistol</soundCast>
@@ -144,13 +146,13 @@
       <drawSize>1.10</drawSize>
     </graphicData>
     <statBases>
-      <WorkToMake>100</WorkToMake>
+      <WorkToMake>2000</WorkToMake>
       <Mass>2.6</Mass>
-      <AccuracyTouch>1.0</AccuracyTouch>
-      <AccuracyShort>0.96</AccuracyShort>
-      <AccuracyMedium>0.78</AccuracyMedium>
-      <AccuracyLong>0.5</AccuracyLong>
-      <RangedWeapon_Cooldown>1.0</RangedWeapon_Cooldown>
+      <AccuracyTouch>0.90</AccuracyTouch>
+      <AccuracyShort>0.69</AccuracyShort>
+      <AccuracyMedium>0.37</AccuracyMedium>
+      <AccuracyLong>0.21</AccuracyLong>
+      <RangedWeapon_Cooldown>1.55</RangedWeapon_Cooldown>
     </statBases>
     <costList>
       <Steel>35</Steel>
@@ -158,6 +160,7 @@
       <Chemfuel>5</Chemfuel>
     </costList>
     <recipeMaker>
+      <researchPrerequisite>HKP_Research_PTUWeapons</researchPrerequisite>
       <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
       <workSkill>Crafting</workSkill>
       <recipeUsers Inherit="False">
@@ -169,10 +172,10 @@
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>HKP_Bullet_CSLS7</defaultProjectile>
-        <warmupTime>0.04</warmupTime>
-        <range>65</range>
-        <burstShotCount>10</burstShotCount>
-        <ticksBetweenBurstShots>3</ticksBetweenBurstShots>
+        <warmupTime>0.85</warmupTime>
+        <range>24.3</range>
+        <burstShotCount>3</burstShotCount>
+        <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
         <soundCast>Shot_HeavySMG</soundCast>
         <soundCastTail>GunTail_Light</soundCastTail>
       </li>
@@ -204,20 +207,16 @@
   <ThingDef ParentName="BaseMakeableGun">
     <defName>HKP_Weapon_FederalM201Z</defName>
     <label>HKP Federal M201-Z催泪弹枪</label>
-    <description>37mm催泪弹发射器，弹丸命中后释放大范围烟雾并造成强力压制。</description>
+    <description>37mm催泪弹发射器。弹丸落地后释放一片烟雾，遮蔽射击视线并阻止炮塔锁定，可对地面任意位置发射。</description>
     <graphicData>
       <texPath>Things/Weapon/HKP_FederalM201Z</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>1.20</drawSize>
     </graphicData>
     <statBases>
-      <WorkToMake>100</WorkToMake>
-      <Mass>2.4</Mass>
-      <AccuracyTouch>0.82</AccuracyTouch>
-      <AccuracyShort>0.78</AccuracyShort>
-      <AccuracyMedium>0.62</AccuracyMedium>
-      <AccuracyLong>0.4</AccuracyLong>
-      <RangedWeapon_Cooldown>2.2</RangedWeapon_Cooldown>
+      <WorkToMake>2000</WorkToMake>
+      <Mass>3.2</Mass>
+      <RangedWeapon_Cooldown>4.2</RangedWeapon_Cooldown>
     </statBases>
     <costList>
       <Steel>45</Steel>
@@ -225,6 +224,7 @@
       <Chemfuel>5</Chemfuel>
     </costList>
     <recipeMaker>
+      <researchPrerequisite>HKP_Research_PTUWeapons</researchPrerequisite>
       <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
       <workSkill>Crafting</workSkill>
       <recipeUsers Inherit="False">
@@ -236,13 +236,17 @@
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>HKP_Bullet_FederalM201Z</defaultProjectile>
-        <warmupTime>0.3</warmupTime>
-        <range>68</range>
+        <warmupTime>3.3</warmupTime>
+        <range>25.4</range>
         <burstShotCount>1</burstShotCount>
         <ticksBetweenBurstShots>1</ticksBetweenBurstShots>
-        <soundCast>Shot_Shotgun</soundCast>
+        <soundCast>Shot_IncendiaryLauncher</soundCast>
         <soundCastTail>GunTail_Light</soundCastTail>
-        <muzzleFlashScale>7</muzzleFlashScale>
+        <forcedMissRadius>1.8</forcedMissRadius>
+        <muzzleFlashScale>14</muzzleFlashScale>
+        <targetParams>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
       </li>
     </verbs>
     <tools>
@@ -261,7 +265,7 @@
     <uiIconScale>1.20</uiIconScale>
     <soundInteract>Interact_Shotgun</soundInteract>
     <weaponClasses>
-      <li>ShortShots</li>
+      <li>RangedHeavy</li>
     </weaponClasses>
     <weaponTags>
       <li>HKP_PoliceWeapon</li>
@@ -271,20 +275,20 @@
   <ThingDef ParentName="BaseMakeableGun">
     <defName>HKP_Weapon_Remington870</defName>
     <label>HKP Remington 870警用霰弹枪</label>
-    <description>以原版泵动霰弹枪为基础强化的Remington 870警用霰弹枪，伤害和射程提高50%。</description>
+    <description>香港警察使用的Remington 870警用泵动霰弹枪，性能略优于原版泵动霰弹枪。</description>
     <graphicData>
       <texPath>Things/Weapon/HKP_Remington870</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>1.35</drawSize>
     </graphicData>
     <statBases>
-      <WorkToMake>100</WorkToMake>
+      <WorkToMake>2000</WorkToMake>
       <Mass>3.4</Mass>
-      <AccuracyTouch>0.80</AccuracyTouch>
-      <AccuracyShort>0.87</AccuracyShort>
-      <AccuracyMedium>0.77</AccuracyMedium>
-      <AccuracyLong>0.64</AccuracyLong>
-      <RangedWeapon_Cooldown>1.25</RangedWeapon_Cooldown>
+      <AccuracyTouch>0.85</AccuracyTouch>
+      <AccuracyShort>0.92</AccuracyShort>
+      <AccuracyMedium>0.82</AccuracyMedium>
+      <AccuracyLong>0.68</AccuracyLong>
+      <RangedWeapon_Cooldown>1.18</RangedWeapon_Cooldown>
     </statBases>
     <costList>
       <Steel>55</Steel>
@@ -292,6 +296,7 @@
       <Chemfuel>5</Chemfuel>
     </costList>
     <recipeMaker>
+      <researchPrerequisite>HKP_Research_EUWeapons</researchPrerequisite>
       <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
       <workSkill>Crafting</workSkill>
       <recipeUsers Inherit="False">
@@ -303,8 +308,8 @@
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>HKP_Bullet_Remington870</defaultProjectile>
-        <warmupTime>0.45</warmupTime>
-        <range>43.85</range>
+        <warmupTime>0.85</warmupTime>
+        <range>16.9</range>
         <burstShotCount>1</burstShotCount>
         <ticksBetweenBurstShots>1</ticksBetweenBurstShots>
         <soundCast>Shot_Shotgun</soundCast>
@@ -338,20 +343,20 @@
   <ThingDef ParentName="BaseMakeableGun">
     <defName>HKP_Weapon_Remington870_Beanbag</defName>
     <label>HKP Remington 870豆袋枪</label>
-    <description>Remington 870非致命豆袋枪。使用高停止力豆袋弹，设计目标为约两次命中即可使普通人体目标失去行动能力。</description>
+    <description>发射12G豆袋弹的Remington 870非致命霰弹枪。豆袋弹伤害很低，但每次命中都会使目标短暂眩晕，并以较高停止力使其踉跄，适合制服而非击杀目标。</description>
     <graphicData>
       <texPath>Things/Weapon/HKP_Remington870_Beanbag</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>1.35</drawSize>
     </graphicData>
     <statBases>
-      <WorkToMake>100</WorkToMake>
+      <WorkToMake>2000</WorkToMake>
       <Mass>3.4</Mass>
-      <AccuracyTouch>0.80</AccuracyTouch>
-      <AccuracyShort>0.87</AccuracyShort>
-      <AccuracyMedium>0.77</AccuracyMedium>
-      <AccuracyLong>0.64</AccuracyLong>
-      <RangedWeapon_Cooldown>0.5</RangedWeapon_Cooldown>
+      <AccuracyTouch>0.85</AccuracyTouch>
+      <AccuracyShort>0.92</AccuracyShort>
+      <AccuracyMedium>0.82</AccuracyMedium>
+      <AccuracyLong>0.68</AccuracyLong>
+      <RangedWeapon_Cooldown>1.18</RangedWeapon_Cooldown>
     </statBases>
     <costList>
       <Steel>55</Steel>
@@ -359,6 +364,7 @@
       <Chemfuel>5</Chemfuel>
     </costList>
     <recipeMaker>
+      <researchPrerequisite>HKP_Research_EUWeapons</researchPrerequisite>
       <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
       <workSkill>Crafting</workSkill>
       <recipeUsers Inherit="False">
@@ -370,8 +376,8 @@
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>HKP_Bullet_Remington870_Beanbag</defaultProjectile>
-        <warmupTime>0.2</warmupTime>
-        <range>50</range>
+        <warmupTime>0.85</warmupTime>
+        <range>16.9</range>
         <burstShotCount>1</burstShotCount>
         <ticksBetweenBurstShots>1</ticksBetweenBurstShots>
         <soundCast>Shot_Shotgun</soundCast>
@@ -412,13 +418,13 @@
       <drawSize>1.35</drawSize>
     </graphicData>
     <statBases>
-      <WorkToMake>100</WorkToMake>
-      <Mass>3.1</Mass>
-      <AccuracyTouch>1.0</AccuracyTouch>
-      <AccuracyShort>0.98</AccuracyShort>
-      <AccuracyMedium>0.88</AccuracyMedium>
-      <AccuracyLong>0.62</AccuracyLong>
-      <RangedWeapon_Cooldown>1</RangedWeapon_Cooldown>
+      <WorkToMake>2000</WorkToMake>
+      <Mass>3.3</Mass>
+      <AccuracyTouch>0.64</AccuracyTouch>
+      <AccuracyShort>0.74</AccuracyShort>
+      <AccuracyMedium>0.69</AccuracyMedium>
+      <AccuracyLong>0.58</AccuracyLong>
+      <RangedWeapon_Cooldown>1.6</RangedWeapon_Cooldown>
     </statBases>
     <costList>
       <Steel>60</Steel>
@@ -426,6 +432,7 @@
       <Chemfuel>5</Chemfuel>
     </costList>
     <recipeMaker>
+      <researchPrerequisite>HKP_Research_PTUWeapons</researchPrerequisite>
       <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
       <workSkill>Crafting</workSkill>
       <recipeUsers Inherit="False">
@@ -437,10 +444,10 @@
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>HKP_Bullet_M16A2</defaultProjectile>
-        <warmupTime>0.175</warmupTime>
-        <range>80</range>
-        <burstShotCount>5</burstShotCount>
-        <ticksBetweenBurstShots>7</ticksBetweenBurstShots>
+        <warmupTime>0.95</warmupTime>
+        <range>32.9</range>
+        <burstShotCount>3</burstShotCount>
+        <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
         <soundCast>Shot_AssaultRifle</soundCast>
         <soundCastTail>GunTail_Light</soundCastTail>
       </li>
@@ -471,23 +478,22 @@
   <ThingDef ParentName="BaseMeleeWeapon">
     <defName>HKP_Weapon_RiotBaton</defName>
     <label>HKP 镇暴警棍</label>
-    <description>高压制镇暴警棍，通常两棍即可将目标压制或击晕。</description>
+    <description>香港警察镇暴警棍。伤害略高于原版钉锤，每次命中有一半几率使目标短暂眩晕，通常两棍即可将目标压制。</description>
     <graphicData>
       <texPath>Things/Weapon/HKP_RiotBaton</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>0.85</drawSize>
     </graphicData>
     <statBases>
-      <WorkToMake>100</WorkToMake>
+      <WorkToMake>2000</WorkToMake>
       <Mass>1.2</Mass>
-      <MeleeWeapon_AverageDPS>13.75</MeleeWeapon_AverageDPS>
-      <MeleeWeapon_CooldownMultiplier>0.95</MeleeWeapon_CooldownMultiplier>
     </statBases>
     <costList>
       <Steel>20</Steel>
       <ComponentIndustrial>1</ComponentIndustrial>
     </costList>
     <recipeMaker>
+      <researchPrerequisite>HKP_Research_ServiceWeapons</researchPrerequisite>
       <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
       <workSkill>Crafting</workSkill>
       <recipeUsers Inherit="False">
@@ -500,9 +506,15 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>22</power>
-        <cooldownTime>1.6</cooldownTime>
-        <armorPenetration>0.42</armorPenetration>
+        <power>16.5</power>
+        <cooldownTime>1.9</cooldownTime>
+        <extraMeleeDamages>
+          <li>
+            <def>Stun</def>
+            <amount>8</amount>
+            <chance>0.5</chance>
+          </li>
+        </extraMeleeDamages>
       </li>
     </tools>
     <weaponTags>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <HKP_Research_ConstableGear.label>HKP constable gear</HKP_Research_ConstableGear.label>
+  <HKP_Research_ConstableGear.description>Craft everyday Hong Kong Police duty wear: uniform shirts, windbreaker, duty belt, red whistle lanyard, radio and body-worn camera, reflective armband, plus peaked caps, the patrol cap and the constable beret.</HKP_Research_ConstableGear.description>
+  <HKP_Research_EUGear.label>HKP Emergency Unit gear</HKP_Research_EUGear.label>
+  <HKP_Research_EUGear.description>Craft protective gear used by the Emergency Unit (EU): ballistic vest, tactical trousers and the light tactical helmet.</HKP_Research_EUGear.description>
+  <HKP_Research_PTUGear.label>HKP Police Tactical Unit gear</HKP_Research_PTUGear.label>
+  <HKP_Research_PTUGear.description>Craft Police Tactical Unit (PTU) gear: PTU tactical vest, PTU beret, riot helmet, riot shield and the Senior Police Constable service jacket.</HKP_Research_PTUGear.description>
+  <HKP_Research_ServiceWeapons.label>HKP service weapons</HKP_Research_ServiceWeapons.label>
+  <HKP_Research_ServiceWeapons.description>Craft basic Hong Kong Police weapons: the Smith &amp; Wesson Model 10 .38 revolver and the riot baton.</HKP_Research_ServiceWeapons.description>
+  <HKP_Research_EUWeapons.label>HKP Emergency Unit firearms</HKP_Research_EUWeapons.label>
+  <HKP_Research_EUWeapons.description>Craft Emergency Unit (EU) firearms: the CS/LP5 police pistol, the Remington 870 police shotgun and the Remington 870 beanbag shotgun.</HKP_Research_EUWeapons.description>
+  <HKP_Research_PTUWeapons.label>HKP Police Tactical Unit firearms</HKP_Research_PTUWeapons.label>
+  <HKP_Research_PTUWeapons.description>Craft Police Tactical Unit (PTU) and tactical firearms: the CS/LS7 submachine gun, the M16A2 rifle and the Federal M201-Z tear gas launcher.</HKP_Research_PTUWeapons.description>
+</LanguageData>

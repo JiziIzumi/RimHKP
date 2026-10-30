@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+  <ResearchTabDef>
+    <defName>HKP_ResearchTab</defName>
+    <label>HKP 香港警察</label>
+    <generalTitle>HKP 香港警察研究项目</generalTitle>
+    <generalDescription>按警员、冲锋队（EU）、机动部队（PTU）的顺序逐步解锁香港警察服装与警用武器。</generalDescription>
+  </ResearchTabDef>
+
+  <!-- 服装：警员 → 冲锋队(EU) → 机动部队(PTU) -->
+  <ResearchProjectDef>
+    <defName>HKP_Research_ConstableGear</defName>
+    <label>HKP 警员装备</label>
+    <description>制作香港警察日常执勤服装：警察衬衣、风衣、腰带、红鸡绳、手咪与执法记录仪、反光袖套，以及各级大盖帽、巡逻帽和警员贝雷帽。</description>
+    <baseCost>500</baseCost>
+    <techLevel>Industrial</techLevel>
+    <tab>HKP_ResearchTab</tab>
+    <prerequisites>
+      <li>ComplexClothing</li>
+    </prerequisites>
+    <researchViewX>0.00</researchViewX>
+    <researchViewY>0.00</researchViewY>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>HKP_Research_EUGear</defName>
+    <label>HKP 冲锋队装备</label>
+    <description>制作冲锋队（EU）使用的防护装备：警察防弹背心、战术裤和冲锋队轻型战术头盔。</description>
+    <baseCost>1200</baseCost>
+    <techLevel>Industrial</techLevel>
+    <tab>HKP_ResearchTab</tab>
+    <prerequisites>
+      <li>HKP_Research_ConstableGear</li>
+      <li>FlakArmor</li>
+    </prerequisites>
+    <researchViewX>1.00</researchViewX>
+    <researchViewY>0.00</researchViewY>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>HKP_Research_PTUGear</defName>
+    <label>HKP 机动部队装备</label>
+    <description>制作警察机动部队（PTU）装备：PTU战术背心、PTU贝雷帽、警员镇暴头盔、镇暴盾牌和高级警员常服外套。</description>
+    <baseCost>2000</baseCost>
+    <techLevel>Industrial</techLevel>
+    <tab>HKP_ResearchTab</tab>
+    <prerequisites>
+      <li>HKP_Research_EUGear</li>
+    </prerequisites>
+    <researchViewX>2.00</researchViewX>
+    <researchViewY>0.00</researchViewY>
+  </ResearchProjectDef>
+
+  <!-- 武器：警用配枪 → 冲锋队火器 → 机动部队火器 -->
+  <ResearchProjectDef>
+    <defName>HKP_Research_ServiceWeapons</defName>
+    <label>HKP 警用配枪</label>
+    <description>制作香港警察基础警械：Smith &amp; Wesson Model 10 .38左轮手枪和镇暴警棍。</description>
+    <baseCost>600</baseCost>
+    <techLevel>Industrial</techLevel>
+    <tab>HKP_ResearchTab</tab>
+    <prerequisites>
+      <li>HKP_Research_ConstableGear</li>
+      <li>Gunsmithing</li>
+    </prerequisites>
+    <researchViewX>1.00</researchViewX>
+    <researchViewY>1.00</researchViewY>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>HKP_Research_EUWeapons</defName>
+    <label>HKP 冲锋队火器</label>
+    <description>制作冲锋队（EU）火器：CS/LP5警用手枪、Remington 870警用霰弹枪和Remington 870豆袋枪。</description>
+    <baseCost>1200</baseCost>
+    <techLevel>Industrial</techLevel>
+    <tab>HKP_ResearchTab</tab>
+    <prerequisites>
+      <li>HKP_Research_ServiceWeapons</li>
+      <li>HKP_Research_EUGear</li>
+      <li>BlowbackOperation</li>
+    </prerequisites>
+    <researchViewX>2.00</researchViewX>
+    <researchViewY>1.00</researchViewY>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>HKP_Research_PTUWeapons</defName>
+    <label>HKP 机动部队火器</label>
+    <description>制作机动部队（PTU）与战术单位火器：CS/LS7冲锋枪、M16A2步枪和Federal M201-Z催泪弹枪。</description>
+    <baseCost>2000</baseCost>
+    <techLevel>Industrial</techLevel>
+    <tab>HKP_ResearchTab</tab>
+    <prerequisites>
+      <li>HKP_Research_EUWeapons</li>
+      <li>HKP_Research_PTUGear</li>
+      <li>PrecisionRifling</li>
+    </prerequisites>
+    <researchViewX>3.00</researchViewX>
+    <researchViewY>1.00</researchViewY>
+  </ResearchProjectDef>
+</Defs>

@@ -15,25 +15,26 @@
     <statBases>
       <MaxHitPoints>180</MaxHitPoints>
       <Mass>0.8</Mass>
-      <ArmorRating_Sharp>0.8</ArmorRating_Sharp>
-      <ArmorRating_Blunt>0.8</ArmorRating_Blunt>
-      <ArmorRating_Heat>0</ArmorRating_Heat>
+      <ArmorRating_Sharp>0.08</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.02</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.04</ArmorRating_Heat>
       <MarketValue>100</MarketValue>
     </statBases>
     <costList>
       <Cloth>15</Cloth>
     </costList>
     <recipeMaker>
+      <researchPrerequisite>HKP_Research_ConstableGear</researchPrerequisite>
       <recipeUsers Inherit="False">
         <li>ElectricTailoringBench</li>
         <li>HandTailoringBench</li>
       </recipeUsers>
-      <workAmount>15</workAmount>
+      <workAmount>500</workAmount>
       <useIngredientsForColor>false</useIngredientsForColor>
     </recipeMaker>
     <apparel>
       <bodyPartGroups>
-        <li>FullHead</li>
+        <li>UpperHead</li>
       </bodyPartGroups>
       <layers>
         <li>Overhead</li>
@@ -61,25 +62,26 @@
     <statBases>
       <MaxHitPoints>180</MaxHitPoints>
       <Mass>0.8</Mass>
-      <ArmorRating_Sharp>0.8</ArmorRating_Sharp>
-      <ArmorRating_Blunt>0.8</ArmorRating_Blunt>
-      <ArmorRating_Heat>0</ArmorRating_Heat>
+      <ArmorRating_Sharp>0.08</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.02</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.04</ArmorRating_Heat>
       <MarketValue>100</MarketValue>
     </statBases>
     <costList>
       <Cloth>15</Cloth>
     </costList>
     <recipeMaker>
+      <researchPrerequisite>HKP_Research_ConstableGear</researchPrerequisite>
       <recipeUsers Inherit="False">
         <li>ElectricTailoringBench</li>
         <li>HandTailoringBench</li>
       </recipeUsers>
-      <workAmount>15</workAmount>
+      <workAmount>500</workAmount>
       <useIngredientsForColor>false</useIngredientsForColor>
     </recipeMaker>
     <apparel>
       <bodyPartGroups>
-        <li>FullHead</li>
+        <li>UpperHead</li>
       </bodyPartGroups>
       <layers>
         <li>Overhead</li>
@@ -107,9 +109,9 @@
     <statBases>
       <MaxHitPoints>180</MaxHitPoints>
       <Mass>0.8</Mass>
-      <ArmorRating_Sharp>0.9</ArmorRating_Sharp>
-      <ArmorRating_Blunt>0.9</ArmorRating_Blunt>
-      <ArmorRating_Heat>0.32</ArmorRating_Heat>
+      <ArmorRating_Sharp>0.48</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.24</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.08</ArmorRating_Heat>
       <MarketValue>100</MarketValue>
     </statBases>
     <costList>
@@ -117,16 +119,17 @@
       <Steel>30</Steel>
     </costList>
     <recipeMaker>
+      <researchPrerequisite>HKP_Research_EUGear</researchPrerequisite>
       <recipeUsers Inherit="False">
         <li>ElectricTailoringBench</li>
         <li>HandTailoringBench</li>
       </recipeUsers>
-      <workAmount>15</workAmount>
+      <workAmount>500</workAmount>
       <useIngredientsForColor>false</useIngredientsForColor>
     </recipeMaker>
     <apparel>
       <bodyPartGroups>
-        <li>FullHead</li>
+        <li>UpperHead</li>
       </bodyPartGroups>
       <layers>
         <li>Overhead</li>
@@ -155,25 +158,26 @@
     <statBases>
       <MaxHitPoints>180</MaxHitPoints>
       <Mass>0.8</Mass>
-      <ArmorRating_Sharp>0.9</ArmorRating_Sharp>
-      <ArmorRating_Blunt>0.9</ArmorRating_Blunt>
-      <ArmorRating_Heat>0</ArmorRating_Heat>
+      <ArmorRating_Sharp>0.08</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.02</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.04</ArmorRating_Heat>
       <MarketValue>100</MarketValue>
     </statBases>
     <costList>
       <Cloth>15</Cloth>
     </costList>
     <recipeMaker>
+      <researchPrerequisite>HKP_Research_PTUGear</researchPrerequisite>
       <recipeUsers Inherit="False">
         <li>ElectricTailoringBench</li>
         <li>HandTailoringBench</li>
       </recipeUsers>
-      <workAmount>15</workAmount>
+      <workAmount>500</workAmount>
       <useIngredientsForColor>false</useIngredientsForColor>
     </recipeMaker>
     <apparel>
       <bodyPartGroups>
-        <li>FullHead</li>
+        <li>UpperHead</li>
       </bodyPartGroups>
       <layers>
         <li>Overhead</li>
@@ -201,9 +205,9 @@
     <statBases>
       <MaxHitPoints>180</MaxHitPoints>
       <Mass>0.8</Mass>
-      <ArmorRating_Sharp>0.9</ArmorRating_Sharp>
-      <ArmorRating_Blunt>0.9</ArmorRating_Blunt>
-      <ArmorRating_Heat>0.72</ArmorRating_Heat>
+      <ArmorRating_Sharp>0.67</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.33</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.11</ArmorRating_Heat>
       <MarketValue>100</MarketValue>
     </statBases>
     <costList>
@@ -211,16 +215,17 @@
       <Steel>30</Steel>
     </costList>
     <recipeMaker>
+      <researchPrerequisite>HKP_Research_PTUGear</researchPrerequisite>
       <recipeUsers Inherit="False">
         <li>ElectricTailoringBench</li>
         <li>HandTailoringBench</li>
       </recipeUsers>
-      <workAmount>15</workAmount>
+      <workAmount>500</workAmount>
       <useIngredientsForColor>false</useIngredientsForColor>
     </recipeMaker>
     <apparel>
       <bodyPartGroups>
-        <li>FullHead</li>
+        <li>UpperHead</li>
       </bodyPartGroups>
       <layers>
         <li>Overhead</li>
@@ -228,7 +233,7 @@
       <wornGraphicPath>Things/Apparel/HKP/警员镇暴头盔/警员镇暴头盔</wornGraphicPath>
     </apparel>
     <equippedStatOffsets>
-      <MeleeDodgeChance>0.60</MeleeDodgeChance>
+      <MeleeDodgeChance>0.10</MeleeDodgeChance>
       <MoveSpeed>-0.04</MoveSpeed>
     </equippedStatOffsets>
     <generateCommonality>0</generateCommonality>
@@ -249,25 +254,26 @@
     <statBases>
       <MaxHitPoints>180</MaxHitPoints>
       <Mass>0.8</Mass>
-      <ArmorRating_Sharp>0.8</ArmorRating_Sharp>
-      <ArmorRating_Blunt>0.8</ArmorRating_Blunt>
-      <ArmorRating_Heat>0.02</ArmorRating_Heat>
+      <ArmorRating_Sharp>0.09</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.02</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.04</ArmorRating_Heat>
       <MarketValue>100</MarketValue>
     </statBases>
     <costList>
       <Cloth>15</Cloth>
     </costList>
     <recipeMaker>
+      <researchPrerequisite>HKP_Research_ConstableGear</researchPrerequisite>
       <recipeUsers Inherit="False">
         <li>ElectricTailoringBench</li>
         <li>HandTailoringBench</li>
       </recipeUsers>
-      <workAmount>15</workAmount>
+      <workAmount>500</workAmount>
       <useIngredientsForColor>false</useIngredientsForColor>
     </recipeMaker>
     <apparel>
       <bodyPartGroups>
-        <li>FullHead</li>
+        <li>UpperHead</li>
       </bodyPartGroups>
       <layers>
         <li>Overhead</li>
@@ -295,25 +301,26 @@
     <statBases>
       <MaxHitPoints>180</MaxHitPoints>
       <Mass>0.8</Mass>
-      <ArmorRating_Sharp>0.8</ArmorRating_Sharp>
-      <ArmorRating_Blunt>0.8</ArmorRating_Blunt>
-      <ArmorRating_Heat>0.03</ArmorRating_Heat>
+      <ArmorRating_Sharp>0.10</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.03</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.05</ArmorRating_Heat>
       <MarketValue>100</MarketValue>
     </statBases>
     <costList>
       <Cloth>15</Cloth>
     </costList>
     <recipeMaker>
+      <researchPrerequisite>HKP_Research_ConstableGear</researchPrerequisite>
       <recipeUsers Inherit="False">
         <li>ElectricTailoringBench</li>
         <li>HandTailoringBench</li>
       </recipeUsers>
-      <workAmount>15</workAmount>
+      <workAmount>500</workAmount>
       <useIngredientsForColor>false</useIngredientsForColor>
     </recipeMaker>
     <apparel>
       <bodyPartGroups>
-        <li>FullHead</li>
+        <li>UpperHead</li>
       </bodyPartGroups>
       <layers>
         <li>Overhead</li>
@@ -341,25 +348,26 @@
     <statBases>
       <MaxHitPoints>180</MaxHitPoints>
       <Mass>0.8</Mass>
-      <ArmorRating_Sharp>1.00</ArmorRating_Sharp>
-      <ArmorRating_Blunt>1.00</ArmorRating_Blunt>
-      <ArmorRating_Heat>0.14</ArmorRating_Heat>
+      <ArmorRating_Sharp>0.11</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.03</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.05</ArmorRating_Heat>
       <MarketValue>100</MarketValue>
     </statBases>
     <costList>
       <Cloth>15</Cloth>
     </costList>
     <recipeMaker>
+      <researchPrerequisite>HKP_Research_ConstableGear</researchPrerequisite>
       <recipeUsers Inherit="False">
         <li>ElectricTailoringBench</li>
         <li>HandTailoringBench</li>
       </recipeUsers>
-      <workAmount>15</workAmount>
+      <workAmount>500</workAmount>
       <useIngredientsForColor>false</useIngredientsForColor>
     </recipeMaker>
     <apparel>
       <bodyPartGroups>
-        <li>FullHead</li>
+        <li>UpperHead</li>
       </bodyPartGroups>
       <layers>
         <li>Overhead</li>
@@ -387,25 +395,26 @@
     <statBases>
       <MaxHitPoints>180</MaxHitPoints>
       <Mass>0.8</Mass>
-      <ArmorRating_Sharp>1.00</ArmorRating_Sharp>
-      <ArmorRating_Blunt>1.00</ArmorRating_Blunt>
-      <ArmorRating_Heat>0.16</ArmorRating_Heat>
+      <ArmorRating_Sharp>0.12</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.04</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.06</ArmorRating_Heat>
       <MarketValue>100</MarketValue>
     </statBases>
     <costList>
       <Cloth>15</Cloth>
     </costList>
     <recipeMaker>
+      <researchPrerequisite>HKP_Research_ConstableGear</researchPrerequisite>
       <recipeUsers Inherit="False">
         <li>ElectricTailoringBench</li>
         <li>HandTailoringBench</li>
       </recipeUsers>
-      <workAmount>15</workAmount>
+      <workAmount>500</workAmount>
       <useIngredientsForColor>false</useIngredientsForColor>
     </recipeMaker>
     <apparel>
       <bodyPartGroups>
-        <li>FullHead</li>
+        <li>UpperHead</li>
       </bodyPartGroups>
       <layers>
         <li>Overhead</li>
@@ -421,7 +430,7 @@
   <ThingDef ParentName="ApparelMakeableBase">
     <defName>HKP_Headgear_Beret_Constable</defName>
     <label>HKP 贝雷帽（警员）</label>
-    <description>香港警察警员贝雷帽。暂时复用现有贝雷帽贴图，不修改贴图文件。</description>
+    <description>香港警察警员佩戴的贝雷帽。</description>
     <graphicData>
       <texPath>Things/Apparel/HKP/贝雷帽（警员）/贝雷帽（警员）</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -433,25 +442,26 @@
     <statBases>
       <MaxHitPoints>180</MaxHitPoints>
       <Mass>0.4</Mass>
-      <ArmorRating_Sharp>0.8</ArmorRating_Sharp>
-      <ArmorRating_Blunt>0.8</ArmorRating_Blunt>
-      <ArmorRating_Heat>0</ArmorRating_Heat>
+      <ArmorRating_Sharp>0.08</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.02</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.04</ArmorRating_Heat>
       <MarketValue>100</MarketValue>
     </statBases>
     <costList>
       <Cloth>15</Cloth>
     </costList>
     <recipeMaker>
+      <researchPrerequisite>HKP_Research_ConstableGear</researchPrerequisite>
       <recipeUsers Inherit="False">
         <li>ElectricTailoringBench</li>
         <li>HandTailoringBench</li>
       </recipeUsers>
-      <workAmount>15</workAmount>
+      <workAmount>500</workAmount>
       <useIngredientsForColor>false</useIngredientsForColor>
     </recipeMaker>
     <apparel>
       <bodyPartGroups>
-        <li>FullHead</li>
+        <li>UpperHead</li>
       </bodyPartGroups>
       <layers>
         <li>Overhead</li>

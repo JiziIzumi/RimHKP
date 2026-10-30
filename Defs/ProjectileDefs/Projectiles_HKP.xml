@@ -9,10 +9,10 @@
     </graphicData>
     <projectile>
       <damageDef>Bullet</damageDef>
-      <damageAmountBase>30</damageAmountBase>
-      <armorPenetrationBase>0.50</armorPenetrationBase>
-      <stoppingPower>3</stoppingPower>
-      <speed>100</speed>
+      <damageAmountBase>13</damageAmountBase>
+      <armorPenetrationBase>0.19</armorPenetrationBase>
+      <stoppingPower>1</stoppingPower>
+      <speed>58</speed>
     </projectile>
   </ThingDef>
   <ThingDef ParentName="BaseBullet">
@@ -24,10 +24,9 @@
     </graphicData>
     <projectile>
       <damageDef>Bullet</damageDef>
-      <damageAmountBase>32</damageAmountBase>
-      <armorPenetrationBase>0.60</armorPenetrationBase>
-      <stoppingPower>4</stoppingPower>
-      <speed>120</speed>
+      <damageAmountBase>11</damageAmountBase>
+      <armorPenetrationBase>0.16</armorPenetrationBase>
+      <speed>58</speed>
     </projectile>
   </ThingDef>
   <ThingDef ParentName="BaseBullet">
@@ -39,27 +38,29 @@
     </graphicData>
     <projectile>
       <damageDef>Bullet</damageDef>
-      <damageAmountBase>28</damageAmountBase>
-      <armorPenetrationBase>0.60</armorPenetrationBase>
-      <stoppingPower>3.4</stoppingPower>
-      <speed>120</speed>
+      <damageAmountBase>13</damageAmountBase>
+      <armorPenetrationBase>0.19</armorPenetrationBase>
+      <speed>51</speed>
     </projectile>
   </ThingDef>
   <ThingDef ParentName="BaseBullet">
     <defName>HKP_Bullet_FederalM201Z</defName>
     <label>37mm催泪弹</label>
     <graphicData>
-      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <texPath>Things/Projectile/LauncherShot</texPath>
       <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>TransparentPostLight</shaderType>
+      <color>(140,135,156)</color>
     </graphicData>
+    <thingClass>Projectile_Explosive</thingClass>
     <projectile>
       <damageDef>Smoke</damageDef>
-      <damageAmountBase>0</damageAmountBase>
-      <stoppingPower>7</stoppingPower>
-      <speed>120</speed>
-      <explosionRadius>4.5</explosionRadius>
-      <explosionDelay>0</explosionDelay>
-      <soundExplode>Explosion_Smoke</soundExplode>
+      <speed>42</speed>
+      <explosionRadius>2.6</explosionRadius>
+      <postExplosionGasType>BlindSmoke</postExplosionGasType>
+      <arcHeightFactor>0.2</arcHeightFactor>
+      <shadowSize>0.6</shadowSize>
+      <screenShakeFactor>0.5</screenShakeFactor>
     </projectile>
   </ThingDef>
   <ThingDef ParentName="BaseBullet">
@@ -71,10 +72,10 @@
     </graphicData>
     <projectile>
       <damageDef>Bullet</damageDef>
-      <damageAmountBase>27</damageAmountBase>
-      <armorPenetrationBase>0.60</armorPenetrationBase>
-      <stoppingPower>4</stoppingPower>
-      <speed>120</speed>
+      <damageAmountBase>19</damageAmountBase>
+      <armorPenetrationBase>0.15</armorPenetrationBase>
+      <stoppingPower>3</stoppingPower>
+      <speed>58</speed>
     </projectile>
   </ThingDef>
   <ThingDef ParentName="BaseBullet">
@@ -85,11 +86,18 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <projectile>
-      <damageDef>Stun</damageDef>
-      <damageAmountBase>14</damageAmountBase>
+      <damageDef>Blunt</damageDef>
+      <damageAmountBase>8</damageAmountBase>
       <armorPenetrationBase>0.05</armorPenetrationBase>
-      <stoppingPower>6</stoppingPower>
-      <speed>120</speed>
+      <stoppingPower>3</stoppingPower>
+      <speed>55</speed>
+      <extraDamages>
+        <li>
+          <def>Stun</def>
+          <amount>8</amount>
+          <chance>1</chance>
+        </li>
+      </extraDamages>
     </projectile>
   </ThingDef>
   <ThingDef ParentName="BaseBullet">
@@ -101,10 +109,9 @@
     </graphicData>
     <projectile>
       <damageDef>Bullet</damageDef>
-      <damageAmountBase>60</damageAmountBase>
-      <armorPenetrationBase>0.70</armorPenetrationBase>
-      <stoppingPower>5</stoppingPower>
-      <speed>120</speed>
+      <damageAmountBase>12</damageAmountBase>
+      <armorPenetrationBase>0.18</armorPenetrationBase>
+      <speed>74</speed>
     </projectile>
   </ThingDef>
 </Defs>
